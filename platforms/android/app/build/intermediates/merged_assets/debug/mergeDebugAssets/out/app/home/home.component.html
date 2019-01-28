@@ -1,23 +1,51 @@
 <!-- This is the home page. -->
 <!-- Look in the login folder for the login code. -->
-<ActionBar title="Ultrafarma"></ActionBar>
-
-<GridLayout rows="40, auto, *, 50">
-    <Label row="0" text="Text on the page in row 1 of grid" color="green" textWrap="true"></Label>
-
-    // Carousel - wrapped in grid to show indicators on android
-    <GridLayout row="2">
-        <Carousel #carousel ios:indicatorOffset="0,-10" ios:finite="true" ios:bounce="false" showIndicator="true" height="100%" indicatorAnimation="SWAP"
-            indicatorColor="#66ccff" indicatorColorUnselected="#cceeff" height="250" width="80%">
-            <CarouselItem backgroundColor="red" height="100%">
-                <Label class="h2 text-center" color="white" textWrap="true" text="1"></Label>
-            </CarouselItem>
-            <CarouselItem backgroundColor="purple">
-                <Label class="h2 text-center" color="white" textWrap="true" text="2"></Label>
-            </CarouselItem>
-        </Carousel>
-    </GridLayout>
-
-    <Label row="3" text="After 5 seconds the indicator animation will change to WORM on ANDROID" textWrap="true"></Label>
+<ActionBar title="Ultrafarma">
+    <Image class="logo" src="~/images/logo.png"></Image>
     <Button class="btn btn-primary" text="Sair" (tap)="logout()"></Button>
-</GridLayout>
+</ActionBar>
+
+<ScrollView orientation="vertical" sdkExampleTitle sdkToggleNavButton>
+    <StackLayout>
+        <FlexboxLayout row="1">
+            <Carousel #carousel showIndicator="false" ios:finite="true" ios:bounce="false" height="475px" width="100%">
+                <CarouselItem>
+                    <Image src="~/images/campanhas.jpg" stretch="none"></Image>
+                </CarouselItem>
+                <CarouselItem>
+                    <Image src="~/images/meus_pedidos.jpg" stretch="none"></Image>
+                </CarouselItem>
+                <CarouselItem>
+                    <Image src="~/images/meu_cadastro.jpg" stretch="none"></Image>
+                </CarouselItem>
+                <CarouselItem>
+                    <Image src="~/images/avaliacao.jpg" stretch="none"></Image>
+                </CarouselItem>
+                <CarouselItem>
+                    <Image src="~/images/money_back.jpg" stretch="none"></Image>
+                </CarouselItem>
+                <CarouselItem>
+                    <Image src="~/images/promocoes.jpg" stretch="none"></Image>
+                </CarouselItem>
+            </Carousel>
+        </FlexboxLayout>
+        <GridLayout class="m-15" rows="auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto">
+            <Label class="h3 m-5" height="50" row="0" text="Title 1"></Label>
+            <Label class="h3 m-5" height="50" row="1" text="Title 2"></Label>
+            <Label class="h3 m-5" height="50" row="2" text="Title 3"></Label>
+            <Label class="h3 m-5" height="50" row="3" text="Title 4"></Label>
+            <Label class="h3 m-5" height="50" row="4" text="Title 5"></Label>
+            <Label class="h3 m-5" height="50" row="5" text="Title 6"></Label>
+            <Label class="h3 m-5" height="50" row="6" text="Title 7"></Label>
+            <Label class="h3 m-5" height="50" row="7" text="Title 8"></Label>
+            <Label class="h3 m-5" height="50" row="8" text="Title 9"></Label>
+            <Label class="h3 m-5" height="50" row="9" text="Title 10"></Label>
+            <Label class="h3 m-5" height="50" row="10" text="Title 10"></Label>
+            <Label class="h3 m-5" height="50" row="11" text="Title 11"></Label>
+            <Label class="h3 m-5" height="50" row="12" text="Title 12"></Label>
+            <Label class="h3 m-5" height="50" row="13" text="Title 13"></Label>
+            <Label class="h3 m-5" height="50" row="14" text="Title 14"></Label>
+            <Label class="h3 m-5" height="50" row="15" text="Title 15"></Label>
+        </GridLayout>
+    </StackLayout>
+</ScrollView>

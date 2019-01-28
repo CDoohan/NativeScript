@@ -30,13 +30,7 @@ export class HomeComponent implements OnInit, AfterViewInit {
     ngAfterViewInit() {
         const carousel = this.carouselRef.nativeElement as Carousel;
         if (isAndroid) {
-            setTimeout(() => {
-                carousel.indicatorAnimation = IndicatorAnimation.WORM;
-                alert({
-                    message: 'The indicator animation has changed from SWAP to WORM. View the items.component.ts to see how.',
-                    okButtonText: 'Okay'
-                });
-            }, 5000);
+            carousel.indicatorAnimation = IndicatorAnimation.WORM;
         }
     }
 

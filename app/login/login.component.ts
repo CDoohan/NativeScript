@@ -13,7 +13,7 @@ import { UserService } from "../shared/user.service";
     styleUrls: ['./login.component.css']
 })
 export class LoginComponent {
-    isLoggingIn = true;
+    isLoggingIn = false;
     user: User;
     processing = false;
     @ViewChild("password") password: ElementRef;
@@ -65,7 +65,7 @@ export class LoginComponent {
             .then(() => {
                 this.processing = false;
                 this.alert("Sua conta foi criada com sucesso.");
-                this.isLoggingIn = true;
+                this.isLoggingIn = false;
             })
             .catch(() => {
                 this.processing = false;
