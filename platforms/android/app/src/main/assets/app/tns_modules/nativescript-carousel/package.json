@@ -1,32 +1,28 @@
 {
-  "_args": [
-    [
-      "nativescript-carousel@4.1.0",
-      "C:\\Users\\Doohan\\Desktop\\NativeScript"
-    ]
-  ],
-  "_from": "nativescript-carousel@4.1.0",
+  "_from": "nativescript-carousel",
   "_id": "nativescript-carousel@4.1.0",
   "_inBundle": false,
   "_integrity": "sha512-qiu/cEHhzHruZDkEQIcYqVgdwDzLh4Js94gNzFB0UZ/m1XbM0beCpcg6LpWQC0Z79d5ZGvnx+U81HSNsB4/mYw==",
   "_location": "/nativescript-carousel",
   "_phantomChildren": {},
   "_requested": {
-    "type": "version",
+    "type": "tag",
     "registry": true,
-    "raw": "nativescript-carousel@4.1.0",
+    "raw": "nativescript-carousel",
     "name": "nativescript-carousel",
     "escapedName": "nativescript-carousel",
-    "rawSpec": "4.1.0",
+    "rawSpec": "",
     "saveSpec": null,
-    "fetchSpec": "4.1.0"
+    "fetchSpec": "latest"
   },
   "_requiredBy": [
+    "#USER",
     "/"
   ],
   "_resolved": "https://registry.npmjs.org/nativescript-carousel/-/nativescript-carousel-4.1.0.tgz",
-  "_spec": "4.1.0",
-  "_where": "C:\\Users\\Doohan\\Desktop\\NativeScript",
+  "_shasum": "691387d96df68db228aa46480214966d15e6e754",
+  "_spec": "nativescript-carousel",
+  "_where": "C:\\Users\\Caua Coelho\\Desktop\\Ultrafarma",
   "author": {
     "name": "Nedim Erkocevic",
     "email": "nedim@fkzeljo.com",
@@ -35,6 +31,7 @@
   "bugs": {
     "url": "https://github.com/manijak/nativescript-carousel/issues"
   },
+  "bundleDependencies": false,
   "contributors": [
     {
       "name": "Brad Martin",
@@ -42,6 +39,7 @@
       "url": "https://github.com/bradmartin"
     }
   ],
+  "deprecated": false,
   "description": "Carousel component for NativeScript (iOS & Android).",
   "devDependencies": {
     "husky": "^0.14.3",

@@ -1,10 +1,4 @@
 {
-  "_args": [
-    [
-      "@angular/platform-browser@7.1.2",
-      "C:\\Users\\Doohan\\Desktop\\NativeScript"
-    ]
-  ],
   "_from": "@angular/platform-browser@7.1.2",
   "_id": "@angular/platform-browser@7.1.2",
   "_inBundle": false,
@@ -26,17 +20,20 @@
     "/"
   ],
   "_resolved": "https://registry.npmjs.org/@angular/platform-browser/-/platform-browser-7.1.2.tgz",
-  "_spec": "7.1.2",
-  "_where": "C:\\Users\\Doohan\\Desktop\\NativeScript",
+  "_shasum": "7f1fa3b59473b1ddaaa658bf064cf512f27c6578",
+  "_spec": "@angular/platform-browser@7.1.2",
+  "_where": "C:\\Users\\Caua Coelho\\Desktop\\Ultrafarma",
   "author": {
     "name": "angular"
   },
   "bugs": {
     "url": "https://github.com/angular/angular/issues"
   },
+  "bundleDependencies": false,
   "dependencies": {
     "tslib": "^1.9.0"
   },
+  "deprecated": false,
   "description": "Angular - library for using Angular in a web browser",
   "es2015": "./fesm2015/platform-browser.js",
   "esm2015": "./esm2015/platform-browser.js",
