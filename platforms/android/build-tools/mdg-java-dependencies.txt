@@ -74,5 +74,3 @@ C:\Users\Doohan\Desktop\NativeScript\platforms\android\app\build\exploded-depend
 C:\Users\Doohan\Desktop\NativeScript\platforms\android\app\build\exploded-dependencies\74\bolts-tasks-1.4.0.jar
 C:\Users\Doohan\Desktop\NativeScript\platforms\android\app\build\exploded-dependencies\8\classes.jar
 C:\Users\Doohan\Desktop\NativeScript\platforms\android\app\build\exploded-dependencies\9\classes.jar
-C:\Users\Doohan\Desktop\NativeScript\platforms\android\app\build\intermediates\javac\debug
-C:\Users\Doohan\Desktop\NativeScript\platforms\android\app\build\intermediates\javac\debug

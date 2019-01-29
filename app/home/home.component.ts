@@ -20,6 +20,9 @@ export class HomeComponent implements OnInit, AfterViewInit {
     @ViewChild('carousel') carouselRef: ElementRef;
     items: Item[];
 
+    public navbarIcon = String.fromCharCode(0xf0c9);
+    public notifyIcon = String.fromCharCode(0xf0f3);
+
     constructor(private userService: UserService, private itemService: ItemService, private routerExtensions: RouterExtensions) {
     }
 

@@ -2,9 +2,9 @@
 <!-- Look in the login folder for the login code. -->
 <ActionBar class="page-title" title="Ultrafarma">
     <StackLayout orientation="horizontal">
-        <Label width="25%" row="0" col="2" text="Teste"></Label>
+        <Label width="25%" row="0" col="2" [text]="notifyIcon" class="fa fa-bell"></Label>
         <Image ios:horizontalAlignment="center" android:horizontalAlignment="center" row="0" col="1" class="logo" src="~/images/logo.png"></Image>
-        <Label width="25%" row="0" col="3" text="Teste"></Label>
+        <Label width="25%" row="0" col="3" [text]="navbarIcon" (tap)="logout()" class="fa fa-sign-out-alt"></Label>
     </StackLayout>
 </ActionBar>
 
@@ -43,10 +43,20 @@
             <Label text="PRÊMIOS" class="category-box-title second"></Label>
             <Carousel #carousel className="teste" showIndicator="false" ios:finite="true" ios:bounce="false" height="475px" width="100%">
                 <CarouselItem>
+<<<<<<< HEAD
                     <AbsoluteLayout>
                         <Image src="~/images/produto.png" width="80%" top="5%" left="0" height="100%" ></Image>
                         
                     </AbsoluteLayout>
+=======
+                    <GridLayout columns="100,auto" rows="auto,auto" width="100%" height="auto">
+                        <Image src="~/images/produto.png" stretch="fill" width="100px" height="100px" col="0" row="0"></Image>
+                        <GridLayout columns="auto,100" rows="auto,auto">
+                            <Label text="Teste label 1" col="1" row="0"></Label>
+                            <Label text="Teste label 2" col="1" row="1"></Label>
+                        </GridLayout>
+                    </GridLayout>
+>>>>>>> a97ffb406cf7b54ee3a98e4f1e6531739c1c51e3
                 </CarouselItem>
                 <CarouselItem>
                     <Image src="~/images/meus_pedidos.jpg" stretch="fill"></Image>
@@ -68,6 +78,5 @@
                 <Button text="veja mais" className="see-more"></Button>
             </AbsoluteLayout>
         </StackLayout>
-        <Button class="btn btn-primary" text="Sair" (tap)="logout()"></Button>
     </StackLayout>
 </ScrollView>
