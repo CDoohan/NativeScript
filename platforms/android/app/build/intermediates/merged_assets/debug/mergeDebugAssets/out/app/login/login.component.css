@@ -5,20 +5,22 @@
 .form {
   margin-left: 30;
   margin-right: 30;
+  margin-top:65;
   flex-grow: 2;
-  vertical-align: middle;
+  vertical-align: top;
 }
 
-.logo {
+.logo-login {
   margin-bottom: 12;
   height: 90;
   font-weight: bold;
 }
+
 .header {
   horizontal-align: center;
   font-size: 25;
   font-weight: 600;
-  margin-bottom: 70;
+  margin-bottom: 50;
   text-align: center;
   color: #0c3e23;
 }
@@ -45,6 +47,7 @@
   font-size: 16;
 }
 .sign-up-label {
+  margin-top:50;
   margin-bottom: 20;
 }
 .bold {

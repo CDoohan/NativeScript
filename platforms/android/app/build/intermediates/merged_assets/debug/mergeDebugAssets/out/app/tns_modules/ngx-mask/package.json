@@ -1,37 +1,39 @@
 {
-  "_from": "ngx-mask",
+  "_args": [
+    [
+      "ngx-mask@7.3.5",
+      "C:\\Users\\Doohan\\Desktop\\NativeScript"
+    ]
+  ],
+  "_from": "ngx-mask@7.3.5",
   "_id": "ngx-mask@7.3.5",
   "_inBundle": false,
   "_integrity": "sha512-/k98c4X03iSral9jZ0jkmalvlE1P4xb8G9VG5L0lw1S4rcDX28lTnpvmM2JO9//n8ky0xZjtkM8n+FHkZ3k5/g==",
   "_location": "/ngx-mask",
   "_phantomChildren": {},
   "_requested": {
-    "type": "tag",
+    "type": "version",
     "registry": true,
-    "raw": "ngx-mask",
+    "raw": "ngx-mask@7.3.5",
     "name": "ngx-mask",
     "escapedName": "ngx-mask",
-    "rawSpec": "",
+    "rawSpec": "7.3.5",
     "saveSpec": null,
-    "fetchSpec": "latest"
+    "fetchSpec": "7.3.5"
   },
   "_requiredBy": [
-    "#USER",
     "/"
   ],
   "_resolved": "https://registry.npmjs.org/ngx-mask/-/ngx-mask-7.3.5.tgz",
-  "_shasum": "0f2830e84f0402e5acd6a86b7b2c10beb3ddb600",
-  "_spec": "ngx-mask",
-  "_where": "C:\\Users\\Caua Coelho\\Desktop\\Ultrafarma",
+  "_spec": "7.3.5",
+  "_where": "C:\\Users\\Doohan\\Desktop\\NativeScript",
   "angular-cli": {},
   "bugs": {
     "url": "https://github.com/NepipenkoIgor/ngx-mask/issues"
   },
-  "bundleDependencies": false,
   "dependencies": {
     "tslib": "^1.9.0"
   },
-  "deprecated": false,
   "description": "awesome ngx mask",
   "es2015": "fesm2015/ngx-mask.js",
   "esm2015": "esm2015/ngx-mask.js",

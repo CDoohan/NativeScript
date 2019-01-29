@@ -1,28 +1,32 @@
 {
-  "_from": "nativescript-masked-text-field",
+  "_args": [
+    [
+      "nativescript-masked-text-field@4.0.1",
+      "C:\\Users\\Doohan\\Desktop\\NativeScript"
+    ]
+  ],
+  "_from": "nativescript-masked-text-field@4.0.1",
   "_id": "nativescript-masked-text-field@4.0.1",
   "_inBundle": false,
   "_integrity": "sha512-QTtc9h1vIsNCS2NUYCGXwOIld2hd4XxD6cSooXwnY/XkNc+Vhtn2yyE0iZmX7s8tvjY+MI95LCgYAN5j1h2LfQ==",
   "_location": "/nativescript-masked-text-field",
   "_phantomChildren": {},
   "_requested": {
-    "type": "tag",
+    "type": "version",
     "registry": true,
-    "raw": "nativescript-masked-text-field",
+    "raw": "nativescript-masked-text-field@4.0.1",
     "name": "nativescript-masked-text-field",
     "escapedName": "nativescript-masked-text-field",
-    "rawSpec": "",
+    "rawSpec": "4.0.1",
     "saveSpec": null,
-    "fetchSpec": "latest"
+    "fetchSpec": "4.0.1"
   },
   "_requiredBy": [
-    "#USER",
     "/"
   ],
   "_resolved": "https://registry.npmjs.org/nativescript-masked-text-field/-/nativescript-masked-text-field-4.0.1.tgz",
-  "_shasum": "c5bcae63bc8afcbfdb3a798c8f831ba536a79a6b",
-  "_spec": "nativescript-masked-text-field",
-  "_where": "C:\\Users\\Caua Coelho\\Desktop\\Ultrafarma",
+  "_spec": "4.0.1",
+  "_where": "C:\\Users\\Doohan\\Desktop\\NativeScript",
   "author": {
     "name": "Peter Staev",
     "email": "peter@tangrasoft.com"
@@ -30,14 +34,12 @@
   "bugs": {
     "url": "https://github.com/PeterStaev/nativescript-masked-text-field/issues"
   },
-  "bundleDependencies": false,
   "contributors": [
     {
       "name": "newapx",
       "url": "https://github.com/newapx"
     }
   ],
-  "deprecated": false,
   "description": "A NativeScript masked text field widget.",
   "homepage": "https://github.com/PeterStaev/nativescript-masked-text-field#readme",
   "keywords": [
