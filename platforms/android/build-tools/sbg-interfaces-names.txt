@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 com.facebook.fresco.animation.backend.AnimationBackend
 com.telerik.android.primitives.widget.sidedrawer.DrawerChangeListener
 com.telerik.android.primitives.widget.sidedrawer.DrawerFadeLayer
@@ -14,10 +15,24 @@ com.facebook.fresco.animation.bitmap.BitmapFrameCache
 com.facebook.fresco.animation.bitmap.BitmapFrameRenderer
 com.facebook.fresco.animation.bitmap.preparation.BitmapFramePreparationStrategy
 com.facebook.fresco.animation.bitmap.preparation.BitmapFramePreparer
+=======
+android.support.v4.app.ActivityCompat.OnRequestPermissionsResultCallback
+android.support.v4.app.ActivityCompat.PermissionCompatDelegate
+android.support.v4.app.ActivityCompat.RequestPermissionsRequestCodeValidator
+com.telerik.android.primitives.widget.sidedrawer.DrawerChangeListener
+com.telerik.android.primitives.widget.sidedrawer.DrawerFadeLayer
+com.telerik.android.primitives.widget.sidedrawer.DrawerTransition
+com.telerik.android.primitives.widget.sidedrawer.DrawerTransitionEndedListener
+com.telerik.android.primitives.widget.sidedrawer.contents.CreateIntentCallback
+com.tns.ExtractPolicy
+com.tns.FileExtractor
+android.support.v4.app.CoreComponentFactory.CompatWrapped
+>>>>>>> 3e19d32d3be9f14e9d25875929a69f89fd27fc14
 com.tns.JavaScriptImplementation
 com.tns.Logger
 com.telerik.android.primitives.widget.sidedrawer.contents.CreateIntentCallback
 com.tns.ManualInstrumentation.Frame
+<<<<<<< HEAD
 android.support.v4.app.ActivityCompat.OnRequestPermissionsResultCallback
 android.support.v4.app.ActivityCompat.PermissionCompatDelegate
 android.support.v4.app.ActivityCompat.RequestPermissionsRequestCodeValidator
@@ -28,31 +43,71 @@ com.facebook.drawee.components.DeferredReleaser.Releasable
 com.tns.NativeScriptHashCodeProvider
 android.support.v4.app.CoreComponentFactory.CompatWrapped
 com.tns.NativeScriptWeakHashMap.Entry.Type
+=======
+>>>>>>> 3e19d32d3be9f14e9d25875929a69f89fd27fc14
 android.support.v4.app.FrameMetricsAggregator.MetricType
 android.support.v4.app.JobIntentService.CompatJobEngine
 android.support.v4.app.JobIntentService.GenericWorkItem
 com.facebook.drawee.controller.ControllerListener
 com.facebook.drawee.controller.ControllerViewportVisibilityListener
 android.support.v4.app.NotificationBuilderWithBuilderAccessor
+com.tns.NativeScriptHashCodeProvider
 android.support.v4.app.NotificationCompat.Action.Extender
+com.tns.NativeScriptWeakHashMap.Entry.Type
 android.support.v4.app.NotificationCompat.Action.SemanticAction
+<<<<<<< HEAD
 com.facebook.drawee.debug.listener.ImageLoadingTimeListener
 android.support.v4.app.NotificationCompat.BadgeIconType
 com.facebook.drawee.drawable.CloneableDrawable
 com.facebook.drawee.drawable.DrawableParent
 com.tns.RuntimeCallable
 android.support.design.widget.AppBarLayout.BaseOnOffsetChangedListener
+=======
+android.support.v4.app.NotificationCompat.BadgeIconType
+android.support.design.widget.AppBarLayout.BaseOnOffsetChangedListener
+android.support.design.widget.AppBarLayout.LayoutParams.ScrollFlags
+android.support.v7.app.ActionBar.DisplayOptions
+android.support.v7.app.ActionBar.NavigationMode
+android.support.v7.app.ActionBar.OnMenuVisibilityListener
+android.support.v7.app.ActionBar.OnNavigationListener
+android.support.design.widget.AppBarLayout.OnOffsetChangedListener
+android.support.v4.app.NotificationCompat.Extender
+android.support.v7.app.ActionBar.TabListener
+android.support.v4.app.NotificationCompat.GroupAlertBehavior
+android.support.v4.app.NotificationCompat.NotificationVisibility
+android.support.v4.app.NotificationCompat.StreamType
+android.support.v7.app.ActionBarDrawerToggle.Delegate
+android.support.v7.app.ActionBarDrawerToggle.DelegateProvider
+com.tns.RuntimeCallable
+>>>>>>> 3e19d32d3be9f14e9d25875929a69f89fd27fc14
 com.tns.ThreadScheduler
 com.tns.bindings.desc.ClassDescriptor
 com.tns.bindings.desc.Descriptor
 android.support.v4.app.NotificationCompat.Extender
 com.tns.bindings.desc.MethodDescriptor
+<<<<<<< HEAD
 android.support.v4.app.NotificationCompat.GroupAlertBehavior
 fi.iki.elonen.NanoHTTPD.AsyncRunner
 android.support.v4.app.NotificationCompat.NotificationVisibility
 android.support.v4.app.NotificationCompat.StreamType
 fi.iki.elonen.NanoHTTPD.IHTTPSession
 com.facebook.drawee.drawable.Rounded
+=======
+android.support.design.widget.SwipeDismissBehavior.OnDismissListener
+fi.iki.elonen.NanoHTTPD.AsyncRunner
+android.support.v4.app.NotificationManagerCompat.Task
+android.support.design.bottomappbar.BottomAppBar.FabAlignmentMode
+android.support.v4.app.ServiceCompat.StopForegroundFlags
+android.support.v7.app.AlertController.AlertParams.OnPrepareListViewListener
+android.support.v4.app.SharedElementCallback.OnSharedElementsReadyListener
+android.support.v7.app.AppCompatCallback
+android.support.v7.app.AppCompatDelegate.NightMode
+android.support.design.widget.BottomNavigationView.OnNavigationItemReselectedListener
+android.support.design.widget.BottomNavigationView.OnNavigationItemSelectedListener
+android.support.v4.app.TaskStackBuilder.SupportParentable
+fi.iki.elonen.NanoHTTPD.IHTTPSession
+android.support.v4.content.FileProvider.PathStrategy
+>>>>>>> 3e19d32d3be9f14e9d25875929a69f89fd27fc14
 fi.iki.elonen.NanoHTTPD.Response.IStatus
 com.facebook.drawee.drawable.ScalingUtils.ScaleType
 com.facebook.drawee.drawable.ScalingUtils.StatefulScaleType
@@ -65,6 +120,7 @@ fi.iki.elonen.NanoHTTPD.ServerSocketFactory
 fi.iki.elonen.NanoHTTPD.TempFile
 fi.iki.elonen.NanoHTTPD.TempFileManager
 fi.iki.elonen.NanoHTTPD.TempFileManagerFactory
+<<<<<<< HEAD
 android.support.design.widget.AppBarLayout.OnOffsetChangedListener
 com.facebook.drawee.gestures.GestureDetector.ClickListener
 com.facebook.drawee.interfaces.DraweeController
@@ -93,6 +149,26 @@ com.google.android.gms.location.Geofence
 com.google.android.gms.location.GeofencingApi
 android.support.design.bottomnavigation.LabelVisibilityMode
 android.support.design.widget.BottomSheetBehavior.State
+=======
+android.support.v4.content.PermissionChecker.PermissionResult
+android.support.v4.content.pm.PermissionInfoCompat.Protection
+android.support.v4.content.pm.PermissionInfoCompat.ProtectionFlags
+android.support.design.bottomnavigation.LabelVisibilityMode
+org.ow2.asmdex.Constants
+android.support.design.widget.BottomSheetBehavior.State
+android.support.v4.content.res.FontResourcesParserCompat.FamilyResourceEntry
+android.support.v4.content.res.FontResourcesParserCompat.FetchStrategy
+android.support.v4.graphics.TypefaceCompatBaseImpl.StyleExtractor
+android.support.v4.graphics.drawable.IconCompat.IconType
+android.support.design.button.MaterialButton.IconGravity
+org.ow2.asmdex.Opcodes
+android.support.design.chip.ChipDrawable.Delegate
+android.support.design.chip.ChipGroup.OnCheckedChangeListener
+android.support.v4.graphics.drawable.TintAwareDrawable
+android.support.v4.graphics.drawable.WrappedDrawable
+androidx.core.internal.package-info
+android.support.v4.net.ConnectivityManagerCompat.RestrictBackgroundStatus
+>>>>>>> 3e19d32d3be9f14e9d25875929a69f89fd27fc14
 org.ow2.asmdex.instruction.IDebugDifferenceAddressInstruction
 org.ow2.asmdex.instruction.IDebugDifferenceLineInstruction
 org.ow2.asmdex.instruction.IDebugLocalVariableInstruction
@@ -110,6 +186,7 @@ com.google.android.gms.location.LocationListener
 org.ow2.asmdex.instruction.IThreeRegistersInstruction
 android.support.design.button.MaterialButton.IconGravity
 org.ow2.asmdex.instruction.ITwoRegistersInstruction
+<<<<<<< HEAD
 android.support.v4.graphics.TypefaceCompatBaseImpl.StyleExtractor
 android.support.v4.graphics.drawable.IconCompat.IconType
 android.support.design.chip.ChipDrawable.Delegate
@@ -135,10 +212,36 @@ android.support.design.widget.FloatingActionButton.Size
 com.google.android.gms.internal.zzcae
 android.support.design.widget.FloatingActionButtonImpl.InternalVisibilityChangedListener
 org.ow2.asmdex.util.TextComponent
+=======
+android.support.v4.os.CancellationSignal.OnCancelListener
+android.support.v4.os.LocaleListInterface
+android.support.v4.os.ParcelableCompatCreatorCallbacks
+android.support.v7.graphics.drawable.DrawerArrowDrawable.ArrowDirection
+android.support.v7.view.ActionMode.Callback
+android.support.design.circularreveal.CircularRevealHelper.Delegate
+android.support.design.circularreveal.CircularRevealHelper.Strategy
+android.support.design.circularreveal.CircularRevealWidget
+android.support.design.expandable.ExpandableTransformationWidget
+android.support.design.expandable.ExpandableWidget
+org.ow2.asmdex.lowLevelUtils.IDalvikValueReader
+android.support.v7.view.CollapsibleActionView
+android.support.design.widget.FloatingActionButton.Size
+org.ow2.asmdex.specificAnnotationParser.ISpecificAnnotationParser
+android.support.design.widget.FloatingActionButtonImpl.InternalVisibilityChangedListener
+android.support.v7.view.menu.CascadingMenuPopup.HorizPosition
+>>>>>>> 3e19d32d3be9f14e9d25875929a69f89fd27fc14
 android.support.v4.provider.FontsContractCompat.FontRequestCallback.FontRequestFailReason
+org.ow2.asmdex.structureReader.ISwitchCase
 android.support.v4.provider.SelfDestructiveThread.ReplyCallback
+android.support.v7.view.menu.MenuBuilder.Callback
+android.support.v7.view.menu.MenuBuilder.ItemInvoker
+android.support.v7.view.menu.MenuHelper
+android.support.design.internal.Experimental
 android.support.v4.text.TextDirectionHeuristicCompat
+org.ow2.asmdex.structureWriter.IAnnotationsHolder
+android.support.design.internal.NavigationMenuPresenter.NavigationMenuItem
 android.support.v4.text.TextDirectionHeuristicsCompat.TextDirectionAlgorithm
+<<<<<<< HEAD
 com.facebook.imagepipeline.cache.CacheKeyFactory
 com.facebook.imagepipeline.cache.ImageCacheStatsTracker
 net.gotev.uploadservice.UploadStatusDelegate
@@ -146,23 +249,64 @@ com.facebook.imagepipeline.cache.MemoryCacheTracker
 com.facebook.imagepipeline.core.DiskStorageFactory
 com.facebook.imagepipeline.core.FileCacheFactory
 android.support.design.internal.Experimental
+=======
+android.support.v7.view.menu.MenuPresenter.Callback
+android.support.v7.view.menu.MenuPresenter
+android.support.v7.view.menu.MenuView.ItemView
+android.support.v7.view.menu.MenuView
+android.support.v7.view.menu.ShowableListMenu
+>>>>>>> 3e19d32d3be9f14e9d25875929a69f89fd27fc14
 android.support.v4.text.util.LinkifyCompat.LinkifyMask
 com.facebook.imagepipeline.core.ImagePipelineExperiments.ProducerFactoryMethod
 android.support.v4.util.Consumer
+<<<<<<< HEAD
 android.support.design.internal.NavigationMenuPresenter.NavigationMenuItem
 android.support.v4.util.Pools.Pool
 com.google.android.material.internal.package-info
 android.support.v4.view.ActionProvider.SubUiVisibilityListener
 android.support.v4.view.ActionProvider.VisibilityListener
 android.support.design.widget.NavigationView.OnNavigationItemSelectedListener
+=======
+com.google.android.material.internal.package-info
+android.support.design.widget.NavigationView.OnNavigationItemSelectedListener
+android.support.v4.util.Pools.Pool
+android.support.v7.widget.ActionBarOverlayLayout.ActionBarVisibilityCallback
+android.support.v4.view.ActionProvider.SubUiVisibilityListener
+android.support.v4.view.ActionProvider.VisibilityListener
+org.ow2.asmdex.util.TextComponent
+android.support.v7.widget.ActionMenuView.ActionMenuChildView
+android.support.v7.widget.ActionMenuView.OnMenuItemClickListener
+android.support.v7.widget.ActivityChooserModel.ActivityChooserModelClient
+android.support.v7.widget.ActivityChooserModel.ActivitySorter
+android.support.v7.widget.ActivityChooserModel.OnChooseActivityListener
+net.gotev.uploadservice.UploadStatusDelegate
+android.support.design.widget.ShadowViewDelegate
+android.support.design.widget.BaseTransientBottomBar.BaseCallback.DismissEvent
+android.support.design.widget.BaseTransientBottomBar.ContentViewCallback
+android.support.design.widget.BaseTransientBottomBar.Duration
+android.support.design.widget.BaseTransientBottomBar.OnAttachStateChangeListener
+android.support.design.widget.BaseTransientBottomBar.OnLayoutChangeListener
+android.support.design.snackbar.ContentViewCallback
+android.support.design.widget.Snackbar.Duration
+>>>>>>> 3e19d32d3be9f14e9d25875929a69f89fd27fc14
 android.support.v13.view.DragStartHelper.OnDragStartListener
 com.facebook.imagepipeline.decoder.ProgressiveJpegConfig
 com.facebook.imagepipeline.decoder.SimpleProgressiveJpegConfig.DynamicValueConfig
 android.support.design.widget.ShadowViewDelegate
 android.support.v4.view.GestureDetectorCompat.GestureDetectorCompatImpl
+<<<<<<< HEAD
 com.facebook.imagepipeline.listener.RequestListener
+=======
+android.support.design.widget.SnackbarManager.Callback
+net.gotev.uploadservice.schemehandlers.SchemeHandler
+>>>>>>> 3e19d32d3be9f14e9d25875929a69f89fd27fc14
 android.support.v4.view.KeyEventDispatcher.Component
+net.gotev.uploadservice.Logger.LoggerDelegate
 android.support.v4.view.LayoutInflaterFactory
+net.gotev.uploadservice.http.BodyWriter.OnStreamWriteListener
+net.gotev.uploadservice.http.HttpStack
+net.gotev.uploadservice.http.HttpConnection.RequestBodyDelegate
+net.gotev.uploadservice.http.HttpConnection
 android.support.v4.view.MenuItemCompat.OnActionExpandListener
 android.support.v4.view.NestedScrollingChild
 android.support.v4.view.NestedScrollingChild2
@@ -178,6 +322,7 @@ android.support.v4.view.ViewCompat.NestedScrollType
 android.support.v4.view.ViewCompat.OnUnhandledKeyEventListenerCompat
 android.support.v4.view.ViewCompat.ScrollAxis
 android.support.v4.view.ViewCompat.ScrollIndicators
+<<<<<<< HEAD
 com.facebook.imagepipeline.memory.PoolStatsTracker
 android.support.design.widget.BaseTransientBottomBar.BaseCallback.DismissEvent
 android.support.design.widget.BaseTransientBottomBar.ContentViewCallback
@@ -187,12 +332,22 @@ android.support.design.widget.BaseTransientBottomBar.OnLayoutChangeListener
 android.support.design.snackbar.ContentViewCallback
 android.support.design.widget.Snackbar.Duration
 android.support.design.widget.SnackbarManager.Callback
+=======
+android.support.v7.widget.AppCompatCompoundButtonHelper.DirectSetButtonDrawableInterface
+android.support.v7.widget.AppCompatDrawableManager.InflateDelegate
+android.support.v4.view.ViewPropertyAnimatorListener
+android.support.v4.view.ViewPropertyAnimatorUpdateListener
+android.support.v4.view.accessibility.AccessibilityManagerCompat.AccessibilityStateChangeListener
+android.support.v4.view.accessibility.AccessibilityManagerCompat.TouchExplorationStateChangeListener
+android.support.v7.widget.ContentFrameLayout.OnAttachListener
+>>>>>>> 3e19d32d3be9f14e9d25875929a69f89fd27fc14
 android.support.design.widget.TabLayout.BaseOnTabSelectedListener
 android.support.design.widget.TabLayout.Mode
 android.support.design.widget.TabLayout.OnTabSelectedListener
 android.support.design.widget.TabLayout.TabGravity
 android.support.design.widget.TabLayout.TabIndicatorGravity
 android.support.design.widget.TextInputLayout.BoxBackgroundMode
+<<<<<<< HEAD
 net.gotev.uploadservice.schemehandlers.SchemeHandler
 com.facebook.imagepipeline.platform.PlatformDecoder
 net.gotev.uploadservice.Logger.LoggerDelegate
@@ -216,10 +371,30 @@ com.telerik.android.common.CollectionChangeListener
 com.facebook.imagepipeline.producers.JobScheduler.JobRunnable
 com.telerik.android.common.DependencyPropertyChangedListener
 com.telerik.android.common.Function
+=======
+com.telerik.widget.autocomplete.AutoCompleteAdapterBase
+com.telerik.widget.autocomplete.DidAutoCompleteListener
+android.support.v13.view.inputmethod.InputConnectionCompat.OnCommitContentListener
+android.support.v13.view.inputmethod.InputContentInfoCompat.InputContentInfoCompatImpl
+android.support.v7.widget.DecorContentParent
+android.support.v7.widget.DecorToolbar
+android.support.v7.widget.FitWindowsViewGroup.OnFitSystemWindowsListener
+android.support.v7.widget.FitWindowsViewGroup
+android.support.v7.widget.LinearLayoutCompat.DividerMode
+android.support.v7.widget.LinearLayoutCompat.OrientationMode
+android.support.v7.widget.MenuItemHoverListener
+android.support.v7.widget.PopupMenu.OnDismissListener
+android.support.v7.widget.PopupMenu.OnMenuItemClickListener
+com.telerik.android.common.CollectionChangeListener
+com.telerik.android.common.DependencyPropertyChangedListener
+com.telerik.android.common.Function
+android.support.v4.widget.AutoSizeableTextView
+>>>>>>> 3e19d32d3be9f14e9d25875929a69f89fd27fc14
 com.telerik.android.common.Function2
 com.telerik.android.common.Function2Async
 com.telerik.android.common.Procedure
 com.telerik.android.common.Procedure2
+<<<<<<< HEAD
 com.facebook.imagepipeline.producers.NetworkFetcher.Callback
 com.facebook.imagepipeline.producers.NetworkFetcher
 com.facebook.imagepipeline.producers.Producer
@@ -242,6 +417,35 @@ com.facebook.cache.common.CacheErrorLogger
 com.facebook.cache.common.CacheEvent
 com.facebook.cache.common.CacheEventListener
 com.facebook.cache.common.CacheKey
+=======
+android.support.v4.widget.NestedScrollView.OnScrollChangeListener
+android.support.v4.widget.TextViewCompat.AutoSizeTextType
+android.support.v4.widget.TintableCompoundButton
+android.support.v4.widget.TintableImageSourceView
+androidx.versionedparcelable.NonParcelField
+androidx.versionedparcelable.ParcelField
+com.telerik.widget.autocomplete.ShowSuggestionListListener
+com.telerik.widget.autocomplete.TextChangedListener
+com.telerik.widget.autocomplete.TokenAdapterBase
+androidx.versionedparcelable.VersionedParcelable
+com.telerik.widget.autocomplete.TokenAddedListener
+androidx.versionedparcelable.VersionedParcelize
+com.telerik.widget.autocomplete.TokenDeselectedListener
+com.telerik.widget.autocomplete.TokenRemovedListener
+com.telerik.widget.autocomplete.TokenSelectedListener
+android.support.v7.widget.SearchView.OnCloseListener
+android.support.v7.widget.SearchView.OnQueryTextListener
+android.support.v7.widget.SearchView.OnSuggestionListener
+android.support.v7.widget.ShareActionProvider.OnShareTargetSelectedListener
+android.support.v7.widget.Toolbar.OnMenuItemClickListener
+org.nativescript.widgets.Async.CompleteCallback
+com.telerik.widget.calendar.CalendarGestureManager.OnTransitionCallback
+android.support.v7.widget.ViewStubCompat.OnInflateListener
+android.support.v7.widget.WithHint
+android.support.v4.media.MediaBrowserCompat.ConnectionCallback.ConnectionCallbackInternal
+com.telerik.widget.calendar.RadCalendarView.CalendarTask
+android.support.v4.media.MediaBrowserCompat.MediaBrowserImpl
+>>>>>>> 3e19d32d3be9f14e9d25875929a69f89fd27fc14
 org.nativescript.widgets.FlexboxLayout.AlignContent
 org.nativescript.widgets.FlexboxLayout.AlignItems
 org.nativescript.widgets.FlexboxLayout.DividerMode
@@ -250,6 +454,7 @@ org.nativescript.widgets.FlexboxLayout.FlexDirection
 androidx.versionedparcelable.VersionedParcelize
 org.nativescript.widgets.FlexboxLayout.FlexWrap
 org.nativescript.widgets.FlexboxLayout.JustifyContent
+<<<<<<< HEAD
 com.telerik.widget.autocomplete.ShowSuggestionListListener
 com.telerik.widget.autocomplete.TextChangedListener
 com.telerik.widget.autocomplete.TokenAdapterBase
@@ -269,9 +474,13 @@ com.facebook.imageformat.ImageFormat.FormatChecker
 org.nativescript.widgets.TabLayout.TabColorizer
 com.facebook.imagepipeline.animated.factory.AnimatedFactory
 org.nativescript.widgets.image.BitmapOwner
+=======
+>>>>>>> 3e19d32d3be9f14e9d25875929a69f89fd27fc14
 android.support.v4.widget.CursorFilter.CursorFilterClient
+android.support.v4.media.MediaBrowserCompat.MediaBrowserServiceCallbackImpl
 android.support.v4.widget.SimpleCursorAdapter.CursorToStringConverter
 android.support.v4.widget.SimpleCursorAdapter.ViewBinder
+<<<<<<< HEAD
 com.facebook.imagepipeline.cache.CountingMemoryCache.CacheTrimStrategy
 com.telerik.widget.calendar.CalendarGestureManager.OnTransitionCallback
 com.facebook.imagepipeline.cache.CountingMemoryCache.EntryStateObserver
@@ -306,12 +515,30 @@ com.facebook.common.internal.Supplier
 android.support.v7.widget.CardViewDelegate
 android.support.v7.widget.CardViewImpl
 android.support.v7.widget.RoundRectDrawableWithShadow.RoundRectHelper
+=======
+com.telerik.widget.calendar.RadCalendarView.OnCellClickListener
+android.support.v4.media.MediaBrowserCompat.MediaItem.Flags
+com.telerik.widget.calendar.RadCalendarView.OnDisplayDateChangedListener
+com.telerik.widget.calendar.RadCalendarView.OnDisplayModeChangedListener
+com.telerik.widget.calendar.RadCalendarView.OnSelectedDatesChangedListener
+android.support.v4.media.MediaBrowserCompatApi21.ConnectionCallback
+android.support.v4.media.MediaBrowserCompatApi21.SubscriptionCallback
+android.support.v7.widget.CardViewDelegate
+android.support.v7.widget.CardViewImpl
+android.support.v7.widget.RoundRectDrawableWithShadow.RoundRectHelper
+com.telerik.widget.calendar.dayview.CalendarDayView.EventViewTapListener
+org.nativescript.widgets.TabLayout.TabColorizer
+org.nativescript.widgets.image.BitmapOwner
+android.arch.lifecycle.ReportFragment.ActivityInitializationListener
+com.telerik.widget.calendar.events.read.GenericResultCallback
+>>>>>>> 3e19d32d3be9f14e9d25875929a69f89fd27fc14
 org.nativescript.widgets.image.Worker.OnImageLoadedListener
 com.google.gson.annotations.Expose
 com.google.gson.annotations.JsonAdapter
 com.google.gson.annotations.SerializedName
 com.google.gson.annotations.Since
 com.google.gson.annotations.Until
+<<<<<<< HEAD
 android.arch.lifecycle.ReportFragment.ActivityInitializationListener
 com.google.gson.ExclusionStrategy
 android.support.v4.print.PrintHelper.OnPrintFinishCallback
@@ -357,6 +584,42 @@ com.google.android.gms.common.api.internal.zzce
 com.google.android.gms.common.api.internal.zzcd
 com.google.android.gms.common.api.internal.zzcm
 com.facebook.soloader.DoNotOptimize
+=======
+com.google.gson.ExclusionStrategy
+com.google.gson.FieldNamingStrategy
+com.google.gson.InstanceCreator
+android.support.v4.print.PrintHelper.OnPrintFinishCallback
+android.arch.lifecycle.ViewModelProvider.Factory
+android.arch.lifecycle.ViewModelStoreOwner
+com.google.android.gms.common.api.internal.zzn
+com.google.android.gms.common.api.internal.zzx
+android.support.v4.media.MediaBrowserCompatApi23.ItemCallback
+android.support.v4.media.MediaBrowserCompatApi26.SubscriptionCallback
+android.support.v4.media.MediaMetadataCompat.BitmapKey
+android.support.v4.media.MediaMetadataCompat.LongKey
+android.support.v4.media.MediaMetadataCompat.RatingKey
+android.support.v4.media.MediaMetadataCompat.TextKey
+android.support.v4.media.RatingCompat.StarStyle
+android.support.v4.media.RatingCompat.Style
+android.support.v4.media.session.MediaControllerCompat.MediaControllerImpl
+android.support.v4.widget.SlidingPaneLayout.PanelSlideListener
+android.support.v4.widget.FocusStrategy.BoundsAdapter
+android.support.v4.widget.FocusStrategy.CollectionAdapter
+android.support.v4.widget.CircularProgressDrawable.ProgressDrawableSize
+com.google.android.gms.common.api.internal.zzbk
+android.support.v4.widget.SwipeRefreshLayout.OnChildScrollUpCallback
+android.support.v4.widget.SwipeRefreshLayout.OnRefreshListener
+com.google.android.gms.common.api.internal.zzce
+com.google.android.gms.common.api.internal.zzcd
+com.google.android.gms.common.api.internal.zzcm
+android.support.v4.media.session.MediaControllerCompatApi21.Callback
+android.support.v4.view.AsyncLayoutInflater.OnInflateFinishedListener
+android.support.v4.media.session.MediaSessionCompat.MediaSessionImpl
+android.support.v4.media.session.MediaSessionCompat.OnActiveChangeListener
+android.support.v4.media.session.MediaSessionCompat.SessionFlags
+android.support.customtabs.CustomTabsService.Relation
+android.support.customtabs.CustomTabsService.Result
+>>>>>>> 3e19d32d3be9f14e9d25875929a69f89fd27fc14
 com.google.android.gms.common.api.internal.zzcv
 com.google.android.gms.common.api.internal.zzcy
 com.google.android.gms.common.api.internal.zzdm
@@ -370,6 +633,7 @@ com.google.android.gms.common.api.Api.ApiOptions.Optional
 com.google.android.gms.common.api.Api.ApiOptions
 com.google.android.gms.common.api.Api.zze
 com.google.android.gms.common.api.Api.zzg
+<<<<<<< HEAD
 com.facebook.soloader.SystemLoadLibraryWrapper
 com.google.android.gms.common.api.GoogleApiClient.ConnectionCallbacks
 com.google.android.gms.common.api.GoogleApiClient.OnConnectionFailedListener
@@ -378,10 +642,40 @@ com.google.gson.TypeAdapterFactory
 com.telerik.android.primitives.widget.tooltip.contracts.DrawListener
 com.telerik.android.primitives.widget.tooltip.contracts.TooltipAdapter
 com.telerik.android.primitives.widget.tooltip.contracts.TooltipContentAdapter
+=======
+com.google.gson.internal.ObjectConstructor
+android.support.v4.media.session.MediaSessionCompatApi21.Callback
+android.support.v4.media.session.MediaSessionCompatApi23.Callback
+android.support.v4.media.session.MediaSessionCompatApi24.Callback
+com.google.gson.JsonDeserializationContext
+com.google.gson.JsonDeserializer
+com.google.android.gms.common.api.GoogleApiClient.ConnectionCallbacks
+com.google.android.gms.common.api.GoogleApiClient.OnConnectionFailedListener
+com.google.android.gms.common.api.PendingResult.zza
+com.google.gson.JsonSerializationContext
+com.google.gson.JsonSerializer
+android.support.v4.media.session.PlaybackStateCompat.Actions
+com.google.gson.TypeAdapterFactory
+android.support.v4.media.session.PlaybackStateCompat.ErrorCode
+android.support.v4.media.session.PlaybackStateCompat.MediaKeyAction
+android.support.v4.media.session.PlaybackStateCompat.RepeatMode
+android.support.v4.media.session.PlaybackStateCompat.ShuffleMode
+android.support.v4.media.session.PlaybackStateCompat.State
+android.support.v4.media.AudioAttributesCompat.AttributeContentType
+android.support.v4.media.AudioAttributesCompat.AttributeUsage
+android.support.v4.app.LoaderManager.LoaderCallbacks
+com.telerik.android.primitives.widget.tooltip.contracts.DrawListener
+com.telerik.android.primitives.widget.tooltip.contracts.TooltipAdapter
+com.telerik.android.primitives.widget.tooltip.contracts.TooltipContentAdapter
+android.support.v4.content.Loader.OnLoadCanceledListener
+android.support.v4.content.Loader.OnLoadCompleteListener
+android.support.v4.media.MediaBrowserServiceCompat.MediaBrowserServiceImpl
+>>>>>>> 3e19d32d3be9f14e9d25875929a69f89fd27fc14
 com.google.android.gms.common.internal.zzae
 bolts.Continuation
 com.google.android.gms.common.internal.zzbn
 com.google.android.gms.common.internal.zzbo
+<<<<<<< HEAD
 bolts.Task.UnobservedExceptionHandler
 com.telerik.widget.chart.engine.axes.categorical.AxisSupportsCombinedSeriesPlot
 android.support.v7.widget.AdapterHelper.Callback
@@ -389,13 +683,37 @@ com.telerik.widget.chart.engine.axes.common.SeriesModelWithAxes
 com.telerik.widget.chart.engine.axes.continuous.ContinuousAxisModel
 android.support.customtabs.CustomTabsService.Relation
 android.support.customtabs.CustomTabsService.Result
+=======
+android.support.v4.view.ViewPager.DecorView
+android.support.v4.view.ViewPager.OnAdapterChangeListener
+android.support.v4.view.ViewPager.OnPageChangeListener
+android.support.v4.view.ViewPager.PageTransformer
+>>>>>>> 3e19d32d3be9f14e9d25875929a69f89fd27fc14
 com.google.android.gms.common.SignInButton.ButtonSize
 com.google.android.gms.common.SignInButton.ColorScheme
 com.google.android.gms.common.data.DataBufferObserver.Observable
 com.google.android.gms.common.data.DataBufferObserver
 com.google.android.gms.common.data.Freezable
+<<<<<<< HEAD
 android.support.v4.app.LoaderManager.LoaderCallbacks
+=======
+com.telerik.widget.chart.engine.axes.categorical.AxisSupportsCombinedSeriesPlot
+com.telerik.widget.chart.engine.axes.common.SeriesModelWithAxes
+com.telerik.widget.chart.engine.axes.continuous.ContinuousAxisModel
+android.support.v4.media.MediaBrowserServiceCompat.ServiceCallbacks
+android.support.v4.media.MediaBrowserServiceCompatApi21.ServiceCompatProxy
+android.support.v4.media.MediaBrowserServiceCompatApi23.ServiceCompatProxy
+android.support.design.widget.CoordinatorLayout.AttachedBehavior
+android.support.design.widget.CoordinatorLayout.DefaultBehavior
+android.support.design.widget.CoordinatorLayout.DispatchChangeEvent
+android.support.v4.media.MediaBrowserServiceCompatApi26.ServiceCompatProxy
+android.support.v4.media.MediaSessionManager.MediaSessionManagerImpl
+android.support.v4.media.MediaSessionManager.RemoteUserInfoImpl
+android.support.v4.media.VolumeProviderCompat.ControlType
+android.support.v4.media.VolumeProviderCompatApi21.Delegate
+>>>>>>> 3e19d32d3be9f14e9d25875929a69f89fd27fc14
 com.google.android.gms.common.images.ImageManager.OnImageLoadedListener
+android.support.v4.widget.DrawerLayout.DrawerListener
 com.google.android.gms.dynamic.zzi
 com.google.android.gms.auth.api.signin.GoogleSignInOptionsExtension
 android.support.v7.widget.ChildHelper.Callback
@@ -407,6 +725,7 @@ android.support.v4.view.ViewPager.OnAdapterChangeListener
 android.support.v4.view.ViewPager.OnPageChangeListener
 android.support.v4.view.ViewPager.PageTransformer
 com.google.android.gms.internal.zzbct
+<<<<<<< HEAD
 android.support.design.widget.CoordinatorLayout.AttachedBehavior
 android.support.design.widget.CoordinatorLayout.DefaultBehavior
 android.support.design.widget.CoordinatorLayout.DispatchChangeEvent
@@ -514,6 +833,66 @@ com.facebook.imagepipeline.animated.impl.AnimatedDrawableBackendProvider
 com.facebook.imagepipeline.animated.impl.AnimatedImageCompositor.Callback
 com.rd.animation.controller.ValueController.UpdateListener
 com.rd.animation.data.Value
+=======
+android.support.transition.AnimatorUtils.AnimatorPauseListenerCompat
+com.telerik.widget.chart.engine.databinding.datasources.DataBindingListener
+com.google.android.gms.internal.zzbdn
+com.facebook.fresco.animation.backend.AnimationBackend
+com.facebook.fresco.animation.backend.AnimationBackendDelegateWithInactivityCheck.InactivityListener
+com.facebook.fresco.animation.backend.AnimationInformation
+com.facebook.fresco.animation.bitmap.BitmapAnimationBackend.FrameListener
+com.facebook.fresco.animation.bitmap.BitmapAnimationBackend.FrameType
+com.facebook.fresco.animation.bitmap.BitmapFrameCache.FrameCacheListener
+com.facebook.fresco.animation.bitmap.BitmapFrameCache
+com.facebook.fresco.animation.bitmap.BitmapFrameRenderer
+com.facebook.fresco.animation.bitmap.preparation.BitmapFramePreparationStrategy
+com.facebook.fresco.animation.bitmap.preparation.BitmapFramePreparer
+com.facebook.fresco.animation.drawable.AnimatedDrawable2.DrawListener
+com.facebook.fresco.animation.drawable.AnimationListener
+com.google.android.gms.internal.zzcps
+com.facebook.fresco.animation.frame.FrameScheduler
+com.facebook.drawee.components.DeferredReleaser.Releasable
+com.google.android.gms.tasks.Continuation
+com.facebook.drawee.controller.ControllerListener
+com.facebook.drawee.controller.ControllerViewportVisibilityListener
+com.facebook.drawee.debug.listener.ImageLoadingTimeListener
+com.google.android.gms.tasks.OnCompleteListener
+com.google.android.gms.tasks.OnFailureListener
+com.google.android.gms.tasks.OnSuccessListener
+com.google.android.gms.tasks.zzk
+com.facebook.drawee.drawable.CloneableDrawable
+com.facebook.drawee.drawable.DrawableParent
+com.facebook.drawee.drawable.Rounded
+com.google.android.gms.tasks.Tasks.zzb
+com.facebook.drawee.drawable.ScalingUtils.ScaleType
+android.support.transition.GhostViewImpl
+com.facebook.drawee.drawable.ScalingUtils.StatefulScaleType
+com.facebook.drawee.drawable.TransformAwareDrawable
+com.facebook.drawee.drawable.TransformCallback
+com.facebook.drawee.drawable.VisibilityAwareDrawable
+com.facebook.drawee.drawable.VisibilityCallback
+android.support.transition.Slide.CalculateSlide
+android.support.transition.Slide.GravityFlag
+android.support.transition.Styleable.ArcMotion
+android.support.transition.Styleable.ChangeBounds
+android.support.transition.Styleable.ChangeTransform
+android.support.transition.Styleable.Fade
+android.support.transition.Styleable.PatternPathMotion
+android.support.transition.Styleable.Slide
+android.support.transition.Styleable.Transition
+android.support.transition.Styleable.TransitionManager
+android.support.transition.Styleable.TransitionSet
+android.support.transition.Styleable.TransitionTarget
+android.support.transition.Styleable.VisibilityTransition
+android.support.transition.Transition.MatchOrder
+android.support.transition.Transition.TransitionListener
+android.support.transition.ViewGroupOverlayImpl
+com.facebook.drawee.gestures.GestureDetector.ClickListener
+com.facebook.drawee.interfaces.DraweeController
+com.facebook.drawee.interfaces.DraweeHierarchy
+com.facebook.drawee.interfaces.SettableDraweeHierarchy
+com.facebook.drawee.interfaces.SimpleDraweeControllerBuilder
+>>>>>>> 3e19d32d3be9f14e9d25875929a69f89fd27fc14
 com.google.android.gms.common.annotation.KeepForSdk
 com.google.android.gms.common.annotation.KeepForSdkWithFieldsAndMethods
 com.google.android.gms.common.annotation.KeepForSdkWithMembers
@@ -525,7 +904,12 @@ com.google.android.gms.common.api.Result
 com.google.android.gms.common.api.ResultCallback
 com.google.android.gms.common.api.internal.zzl
 com.google.android.gms.common.api.internal.zzcg
+com.google.android.gms.location.ActivityRecognitionApi
+com.google.android.gms.location.FusedLocationProviderApi
+com.google.android.gms.location.Geofence
+android.support.transition.ViewOverlayImpl
 com.google.android.gms.common.api.internal.zzcz
+<<<<<<< HEAD
 com.telerik.widget.chart.engine.series.ChartSeriesModel.DataPointsChangedListener
 com.google.android.gms.common.internal.zzf
 com.google.android.gms.common.internal.zzg
@@ -545,6 +929,49 @@ com.telerik.widget.chart.visualization.behaviors.ChartScaleGestureDetector.OnSca
 com.google.android.gms.security.ProviderInstaller.ProviderInstallListener
 com.google.android.gms.internal.zzw
 com.telerik.widget.chart.visualization.behaviors.ChartSelectionChangeListener
+=======
+android.support.transition.Visibility.Mode
+com.google.android.gms.location.GeofencingApi
+com.google.android.gms.common.internal.zzf
+com.google.android.gms.common.internal.zzg
+com.google.android.gms.common.internal.zzj
+com.google.android.gms.location.LocationListener
+android.support.transition.WindowIdImpl
+com.facebook.crypto.CryptoAlgo
+com.facebook.crypto.keychain.KeyChain
+com.facebook.crypto.proguard.annotations.DoNotStrip
+com.facebook.crypto.proguard.annotations.InternalBuildOnly
+com.facebook.crypto.proguard.annotations.KeepGettersAndSetters
+com.facebook.crypto.util.NativeCryptoLibrary
+com.google.android.gms.location.SettingsApi
+okio.BufferedSink
+okio.BufferedSource
+com.google.android.gms.common.util.zzd
+com.google.android.gms.common.util.DynamiteApi
+okio.package-info
+okio.Sink
+okio.Source
+android.support.v4.app.Fragment.OnStartEnterTransitionListener
+android.support.v4.app.FragmentManager.BackStackEntry
+android.support.v4.app.FragmentManager.OnBackStackChangedListener
+com.google.android.gms.dynamic.LifecycleDelegate
+com.google.android.gms.dynamic.zzo
+com.telerik.widget.chart.engine.decorations.annotations.custom.CustomAnnotationRenderer
+com.telerik.widget.chart.engine.elementTree.ChartElement.Predicate
+android.support.v4.app.FragmentManagerImpl.OpGenerator
+com.google.android.gms.internal.zzcae
+com.telerik.widget.chart.engine.series.ChartSeriesModel.DataPointsChangedListener
+com.telerik.widget.chart.engine.series.combination.SupportCombineMode
+com.telerik.widget.chart.engine.view.ChartElementPresenter
+com.telerik.widget.chart.engine.view.ChartSeries
+com.telerik.widget.chart.engine.view.ChartView
+com.facebook.imagepipeline.cache.CacheKeyFactory
+com.facebook.imagepipeline.cache.ImageCacheStatsTracker
+com.google.android.gms.dynamite.zzi
+com.google.android.gms.dynamite.DynamiteModule.zzd
+com.google.android.gms.security.ProviderInstaller.ProviderInstallListener
+com.google.android.gms.internal.zzw
+>>>>>>> 3e19d32d3be9f14e9d25875929a69f89fd27fc14
 com.google.android.gms.internal.zzx
 com.google.android.gms.internal.zzb
 com.google.android.gms.internal.zzv
@@ -557,9 +984,42 @@ com.telerik.widget.chart.visualization.behaviors.animations.ChartAnimation
 com.telerik.widget.chart.visualization.behaviors.animations.ChartAnimationFinishedListener
 com.google.android.gms.internal.zzan
 com.google.android.gms.internal.zzap
+<<<<<<< HEAD
 com.google.android.gms.internal.zzcnb
 com.google.android.gms.internal.zzbcc
 com.google.android.gms.internal.zzeeg
+=======
+com.facebook.imagepipeline.cache.MemoryCacheTracker
+com.facebook.imagepipeline.core.DiskStorageFactory
+com.facebook.imagepipeline.core.FileCacheFactory
+com.facebook.imagepipeline.core.ImagePipelineExperiments.ProducerFactoryMethod
+com.telerik.widget.chart.visualization.behaviors.ChartScaleGestureDetector.OnScaleGestureListener
+android.support.v4.app.ActionBarDrawerToggle.Delegate
+android.support.v4.app.ActionBarDrawerToggle.DelegateProvider
+com.telerik.widget.chart.visualization.behaviors.ChartSelectionChangeListener
+android.nfc.NfcAdapter.CreateBeamUrisCallback
+com.telerik.widget.chart.visualization.behaviors.ChartTrackballContentAdapter.ChartTrackBallContentProvider
+com.telerik.widget.chart.visualization.behaviors.PanZoomListener
+com.google.android.gms.internal.zzcnb
+com.google.android.gms.internal.zzbcc
+com.facebook.imagepipeline.decoder.ProgressiveJpegConfig
+com.facebook.imagepipeline.decoder.SimpleProgressiveJpegConfig.DynamicValueConfig
+com.facebook.imagepipeline.listener.RequestListener
+com.telerik.widget.chart.visualization.behaviors.TooltipContextNeededListener
+com.telerik.widget.chart.visualization.behaviors.animations.ChartAnimation
+android.nfc.NfcAdapter.ReaderCallback
+com.telerik.widget.chart.visualization.behaviors.animations.ChartAnimationFinishedListener
+android.nfc.NfcAdapter.CreateNdefMessageCallback
+android.nfc.NfcAdapter.OnNdefPushCompleteCallback
+android.nfc.NfcAdapter.OnTagRemovedListener
+com.facebook.imagepipeline.memory.PoolStatsTracker
+android.nfc.tech.TagTechnology
+android.renderscript.Allocation.OnBufferAvailableListener
+com.facebook.imagepipeline.platform.PlatformDecoder
+com.google.android.gms.internal.zzeeg
+com.facebook.imagepipeline.producers.Consumer.Status
+com.facebook.imagepipeline.producers.Consumer
+>>>>>>> 3e19d32d3be9f14e9d25875929a69f89fd27fc14
 com.google.android.gms.internal.zzeeu
 com.google.android.gms.internal.zzefe
 com.google.android.gms.internal.zzefg
@@ -569,7 +1029,9 @@ com.google.android.gms.internal.zzefr
 com.google.android.gms.internal.zzefq
 com.google.android.gms.internal.zzefs
 com.google.android.gms.internal.zzefu
+com.facebook.imagepipeline.producers.JobScheduler.JobRunnable
 com.google.android.gms.internal.zzegg
+<<<<<<< HEAD
 android.nfc.NfcAdapter.CreateBeamUrisCallback
 android.nfc.NfcAdapter.ReaderCallback
 android.nfc.NfcAdapter.CreateNdefMessageCallback
@@ -577,34 +1039,178 @@ android.nfc.NfcAdapter.OnNdefPushCompleteCallback
 android.nfc.NfcAdapter.OnTagRemovedListener
 android.nfc.tech.TagTechnology
 android.renderscript.Allocation.OnBufferAvailableListener
+=======
+com.facebook.imagepipeline.producers.NetworkFetcher.Callback
+com.facebook.imagepipeline.producers.NetworkFetcher
+com.facebook.imagepipeline.producers.Producer
+com.facebook.imagepipeline.producers.ProducerContext
+com.facebook.imagepipeline.producers.ProducerContextCallbacks
+com.facebook.imagepipeline.producers.ProducerListener
+android.arch.lifecycle.GenericLifecycleObserver
+android.arch.lifecycle.FullLifecycleObserver
+android.arch.lifecycle.GeneratedAdapter
+android.arch.lifecycle.LifecycleObserver
+android.arch.lifecycle.OnLifecycleEvent
+android.arch.lifecycle.LifecycleOwner
+>>>>>>> 3e19d32d3be9f14e9d25875929a69f89fd27fc14
 android.companion.DeviceFilter
 android.se.omapi.SEService.OnConnectedListener
+android.arch.core.internal.SafeIterableMap.SupportRemove
 android.database.Cursor
 android.database.DatabaseErrorHandler
+com.facebook.imagepipeline.producers.ThumbnailProducer
+com.facebook.imagepipeline.request.HasImageRequest
+com.facebook.imagepipeline.request.Postprocessor
+com.facebook.imagepipeline.request.RepeatedPostprocessor
+com.facebook.imagepipeline.request.RepeatedPostprocessorRunner
+com.facebook.binaryresource.BinaryResource
+com.facebook.cache.common.CacheErrorLogger
+com.facebook.cache.common.CacheEvent
+com.facebook.cache.common.CacheEventListener
+com.facebook.cache.common.CacheKey
+com.facebook.cache.common.WriterCallback
+com.facebook.cache.disk.DefaultDiskStorage.FileType
 android.database.sqlite.SQLiteDatabase.CursorFactory
 android.database.sqlite.SQLiteCursorDriver
 android.database.sqlite.SQLiteTransactionListener
+<<<<<<< HEAD
+=======
+com.facebook.cache.disk.DiskStorage.Entry
+com.facebook.cache.disk.DiskStorage.Inserter
+com.facebook.cache.disk.DiskStorage
+android.arch.core.util.Function
+android.support.annotation.AnimRes
+android.support.annotation.AnimatorRes
+android.support.annotation.AnyRes
+android.support.annotation.AnyThread
+android.support.annotation.ArrayRes
+android.support.annotation.AttrRes
+android.support.annotation.BinderThread
+android.support.annotation.BoolRes
+android.support.annotation.CallSuper
+android.support.annotation.CheckResult
+android.support.annotation.ColorInt
+android.support.annotation.ColorLong
+android.support.annotation.ColorRes
+android.support.annotation.DimenRes
+android.support.annotation.Dimension
+android.support.annotation.DrawableRes
+android.support.annotation.FloatRange
+android.support.annotation.FontRes
+android.support.annotation.FractionRes
+android.support.annotation.GuardedBy
+android.support.annotation.HalfFloat
+android.support.annotation.IdRes
+android.support.annotation.IntDef
+android.support.annotation.IntRange
+android.support.annotation.IntegerRes
+android.support.annotation.InterpolatorRes
+android.support.annotation.Keep
+android.support.annotation.LayoutRes
+android.support.annotation.LongDef
+android.support.annotation.MainThread
+android.support.annotation.MenuRes
+android.support.annotation.NavigationRes
+android.support.annotation.NonNull
+android.support.annotation.Nullable
+android.support.annotation.PluralsRes
+android.support.annotation.Px
+android.support.annotation.RawRes
+android.support.annotation.RequiresApi
+android.support.annotation.RequiresFeature
+android.support.annotation.RequiresPermission.Read
+android.support.annotation.RequiresPermission.Write
+android.support.annotation.RequiresPermission
+android.support.annotation.RestrictTo
+android.support.annotation.Size
+android.support.annotation.StringDef
+android.support.annotation.StringRes
+android.support.annotation.StyleRes
+android.support.annotation.StyleableRes
+android.support.annotation.TransitionRes
+android.support.annotation.UiThread
+android.support.annotation.VisibleForTesting
+android.support.annotation.WorkerThread
+android.support.annotation.XmlRes
+>>>>>>> 3e19d32d3be9f14e9d25875929a69f89fd27fc14
 android.database.CrossProcessCursor
 android.bluetooth.BluetoothAdapter.LeScanCallback
 android.bluetooth.BluetoothProfile.ServiceListener
 android.bluetooth.BluetoothProfile
+com.facebook.cache.disk.EntryEvictionComparator
+com.facebook.cache.disk.EntryEvictionComparatorSupplier
+com.facebook.drawable.base.DrawableWithCaches
+com.facebook.imagepipeline.animated.base.AnimatedDrawableBackend
+com.facebook.imageformat.ImageFormat.FormatChecker
+com.facebook.imagepipeline.animated.factory.AnimatedFactory
+com.facebook.imagepipeline.animated.base.AnimatedImage
+com.facebook.imagepipeline.animated.base.AnimatedImageFrame
+com.facebook.imagepipeline.animated.factory.AnimatedImageDecoder
+com.facebook.imagepipeline.animated.factory.AnimatedImageFactory
+com.facebook.imagepipeline.animated.impl.AnimatedDrawableBackendProvider
+com.facebook.imagepipeline.cache.CountingMemoryCache.CacheTrimStrategy
+com.facebook.imagepipeline.animated.impl.AnimatedImageCompositor.Callback
+com.facebook.imagepipeline.cache.CountingMemoryCache.EntryStateObserver
+com.facebook.imagepipeline.cache.MemoryCache
+com.facebook.imagepipeline.cache.ValueDescriptor
+com.facebook.imagepipeline.common.RotationOptions.RotationAngle
+com.facebook.imagepipeline.common.SourceUriType
+com.facebook.imagepipeline.core.ExecutorSupplier
+com.rd.animation.controller.ValueController.UpdateListener
+com.facebook.imagepipeline.decoder.ImageDecoder
+com.facebook.imagepipeline.drawable.DrawableFactory
+com.facebook.imagepipeline.image.ImageInfo
+com.facebook.imagepipeline.image.QualityInfo
+com.rd.animation.data.Value
+com.facebook.imagepipeline.nativecode.WebpTranscoder
 android.transition.Transition.TransitionListener
 android.speech.tts.TextToSpeech.OnUtteranceCompletedListener
 android.speech.tts.SynthesisCallback
 android.speech.tts.TextToSpeech.OnInitListener
 android.speech.RecognitionListener
 android.text.ParcelableSpan
+<<<<<<< HEAD
+=======
+com.facebook.imagepipeline.systrace.FrescoSystrace.ArgsBuilder
+com.facebook.imagepipeline.systrace.FrescoSystrace.Systrace
+com.facebook.common.activitylistener.ActivityListener
+com.facebook.common.activitylistener.ListenableActivity
+com.facebook.common.disk.DiskTrimmable
+com.facebook.common.disk.DiskTrimmableRegistry
+com.facebook.common.executors.HandlerExecutorService
+com.facebook.common.executors.SerialExecutorService
+com.facebook.common.file.FileTreeVisitor
+com.facebook.common.internal.DoNotStrip
+>>>>>>> 3e19d32d3be9f14e9d25875929a69f89fd27fc14
 android.text.method.TransformationMethod
+com.facebook.common.internal.Predicate
+com.facebook.common.internal.Supplier
 android.text.method.KeyListener
+com.facebook.common.internal.VisibleForTesting
 android.text.method.MovementMethod
 android.text.Html.TagHandler
 android.text.Editable
 android.text.Spanned
 android.text.Html.ImageGetter
 android.text.InputType
+com.facebook.common.lifecycle.AttachDetachListener
+com.facebook.common.logging.LoggingDelegate
+com.rd.IndicatorManager.Listener
 android.text.GetChars
 android.text.style.LineHeightSpan.WithDensity
 android.text.style.LeadingMarginSpan.LeadingMarginSpan2
+com.facebook.common.memory.ByteArrayPool
+com.facebook.common.memory.MemoryTrimmable
+com.facebook.common.memory.MemoryTrimmableRegistry
+com.facebook.common.memory.Pool
+com.facebook.common.memory.PooledByteBuffer
+com.facebook.common.memory.PooledByteBufferFactory
+com.facebook.common.references.ResourceReleaser
+com.facebook.common.time.Clock
+com.facebook.common.time.MonotonicClock
+com.facebook.common.webp.BitmapCreator
+com.facebook.common.webp.WebpBitmapFactory.WebpErrorLogger
+com.facebook.common.webp.WebpBitmapFactory
 android.text.style.AlignmentSpan
 android.text.style.LeadingMarginSpan
 android.text.style.UpdateLayout
@@ -630,17 +1236,30 @@ android.hardware.Camera.PreviewCallback
 android.hardware.Camera.FaceDetectionListener
 android.hardware.display.DisplayManager.DisplayListener
 android.hardware.SensorListener
+<<<<<<< HEAD
 com.telerik.widget.chart.visualization.cartesianChart.series.pointrenderers.ChartDataPointRenderer
 android.hardware.Camera.AutoFocusMoveCallback
 android.hardware.Camera.PictureCallback
 android.hardware.Camera.ShutterCallback
+=======
+android.arch.lifecycle.Observer
+android.hardware.Camera.AutoFocusMoveCallback
+android.hardware.Camera.PictureCallback
+android.hardware.Camera.ShutterCallback
+com.facebook.datasource.DataSource
+com.facebook.datasource.DataSubscriber
+>>>>>>> 3e19d32d3be9f14e9d25875929a69f89fd27fc14
 android.hardware.input.InputManager.InputDeviceListener
 android.hardware.SensorEventListener
 android.hardware.Camera.ErrorCallback
 android.hardware.SensorEventListener2
+com.facebook.widget.text.span.BetterImageSpan.BetterImageSpanAlignment
+com.facebook.soloader.DoNotOptimize
+com.facebook.soloader.SoFileLoader
 android.service.autofill.Transformation
 android.service.autofill.Sanitizer
 android.service.autofill.Validator
+<<<<<<< HEAD
 android.support.v7.app.ActionBar.DisplayOptions
 android.support.v7.app.ActionBar.NavigationMode
 android.support.v7.app.ActionBar.OnMenuVisibilityListener
@@ -653,7 +1272,14 @@ android.support.v7.app.AlertController.AlertParams.OnPrepareListViewListener
 android.support.v7.app.AppCompatCallback
 android.support.v7.app.AppCompatDelegate.NightMode
 com.telerik.widget.chart.visualization.common.PropertyChangedListener
+=======
+com.facebook.soloader.SystemLoadLibraryWrapper
+bolts.Continuation
+bolts.Task.UnobservedExceptionHandler
+android.support.v7.widget.AdapterHelper.Callback
+>>>>>>> 3e19d32d3be9f14e9d25875929a69f89fd27fc14
 android.service.carrier.CarrierMessagingService.ResultCallback
+android.support.v7.widget.ChildHelper.Callback
 android.webkit.JavascriptInterface
 android.webkit.WebResourceRequest
 android.webkit.WebChromeClient.CustomViewCallback
@@ -668,6 +1294,7 @@ android.webkit.PluginStub
 android.webkit.ValueCallback
 android.webkit.WebStorage.QuotaUpdater
 android.webkit.GeolocationPermissions.Callback
+<<<<<<< HEAD
 com.telerik.widget.palettes.PaletteChangedListener
 com.telerik.widget.primitives.legend.LegendInfoProvider
 android.support.v7.graphics.drawable.DrawerArrowDrawable.ArrowDirection
@@ -677,10 +1304,15 @@ com.telerik.widget.primitives.legend.LegendSelectionListener
 com.telerik.widget.primitives.legend.LegendTouchListener.LegendItemClickListener
 android.support.v7.view.ActionMode.Callback
 android.support.v7.view.CollapsibleActionView
+=======
+android.support.v7.widget.helper.ItemTouchHelper.ViewDropHandler
+android.support.v7.widget.helper.ItemTouchUIUtil
+>>>>>>> 3e19d32d3be9f14e9d25875929a69f89fd27fc14
 android.app.LoaderManager.LoaderCallbacks
 android.app.AppOpsManager.OnOpChangedListener
 android.app.SharedElementCallback.OnSharedElementsReadyListener
 android.app.DatePickerDialog.OnDateSetListener
+<<<<<<< HEAD
 android.support.v7.view.menu.CascadingMenuPopup.HorizPosition
 android.support.v7.view.menu.MenuBuilder.Callback
 android.support.v7.view.menu.MenuBuilder.ItemInvoker
@@ -704,6 +1336,26 @@ android.support.v7.widget.ActionBarOverlayLayout.ActionBarVisibilityCallback
 com.telerik.widget.dataform.engine.EntityPropertyEditorChangeListener
 com.telerik.widget.dataform.engine.EntityPropertyValidationListener
 android.support.v7.widget.ActionMenuView.ActionMenuChildView
+=======
+android.support.v7.util.ListUpdateCallback
+android.support.v7.widget.OpReorderer.Callback
+android.app.Application.ActivityLifecycleCallbacks
+android.app.FragmentManager.OnBackStackChangedListener
+android.app.Notification.Action.Extender
+android.app.KeyguardManager.OnKeyguardExitResult
+android.app.FragmentManager.BackStackEntry
+android.support.v7.widget.RecyclerView.ChildDrawingOrderCallback
+android.support.v7.widget.RecyclerView.EdgeEffectFactory.EdgeDirection
+android.support.v7.widget.RecyclerView.ItemAnimator.AdapterChanges
+android.support.v7.widget.RecyclerView.ItemAnimator.ItemAnimatorFinishedListener
+android.support.v7.widget.RecyclerView.ItemAnimator.ItemAnimatorListener
+android.support.v7.widget.RecyclerView.LayoutManager.LayoutPrefetchRegistry
+android.support.v7.widget.RecyclerView.OnChildAttachStateChangeListener
+android.support.v7.widget.RecyclerView.OnItemTouchListener
+android.support.v7.widget.RecyclerView.Orientation
+android.support.v7.widget.RecyclerView.RecyclerListener
+android.support.v7.widget.RecyclerView.SmoothScroller.ScrollVectorProvider
+>>>>>>> 3e19d32d3be9f14e9d25875929a69f89fd27fc14
 android.app.PendingIntent.OnFinished
 com.telerik.widget.dataform.engine.NotifyPropertyChanged
 android.support.v7.widget.ActionMenuView.OnMenuItemClickListener
@@ -712,6 +1364,7 @@ com.telerik.widget.dataform.engine.PropertyConverter
 com.telerik.widget.dataform.engine.PropertyValidator
 com.telerik.widget.dataform.engine.PropertyValidatorManual.ValidationProvider
 android.app.TimePickerDialog.OnTimeSetListener
+<<<<<<< HEAD
 com.telerik.widget.dataform.engine.ValidationCompletedListener
 android.support.v7.widget.ActivityChooserModel.ActivityChooserModelClient
 android.support.v7.widget.ActivityChooserModel.ActivitySorter
@@ -720,15 +1373,33 @@ android.app.ActionBar.TabListener
 android.app.UiAutomation.AccessibilityEventFilter
 com.telerik.widget.dataform.visualization.ExpandableEditorGroup.IsExpandedChangedListener
 com.telerik.widget.dataform.visualization.annotations.DataFormEditorParams
+=======
+android.app.ActionBar.TabListener
+android.app.UiAutomation.AccessibilityEventFilter
+android.support.v7.util.ThreadUtil.BackgroundCallback
+android.support.v7.util.ThreadUtil.MainThreadCallback
+android.support.v7.util.ThreadUtil
+android.support.v7.widget.ViewBoundsCheck.Callback
+android.support.v7.widget.ViewBoundsCheck.ViewBounds
+android.support.v7.widget.ViewInfoStore.ProcessCallback
+>>>>>>> 3e19d32d3be9f14e9d25875929a69f89fd27fc14
 android.app.SearchManager.OnDismissListener
 com.telerik.widget.dataform.visualization.annotations.DataFormProperty
 com.telerik.widget.dataform.visualization.annotations.DataFormValidator
 com.telerik.widget.dataform.visualization.annotations.DataFormValidatorParams
 android.app.ActionBar.OnNavigationListener
+<<<<<<< HEAD
 com.telerik.widget.dataform.visualization.core.EntityPropertyEditor.OnValidationEventListener
+=======
+com.facebook.drawee.backends.pipeline.info.ImageLoadStatus
+com.facebook.drawee.backends.pipeline.info.ImageOrigin
+com.facebook.drawee.backends.pipeline.info.ImageOriginListener
+>>>>>>> 3e19d32d3be9f14e9d25875929a69f89fd27fc14
 android.app.FragmentBreadCrumbs.OnBreadCrumbClickListener
 android.app.AlarmManager.OnAlarmListener
+com.facebook.drawee.backends.pipeline.info.ImagePerfDataListener
 android.app.SearchManager.OnCancelListener
+<<<<<<< HEAD
 com.telerik.widget.dataform.visualization.editors.DataFormCustomEditor.DataFormCustomEditorProvider
 android.support.v7.widget.AppCompatCompoundButtonHelper.DirectSetButtonDrawableInterface
 android.support.v7.widget.AppCompatDrawableManager.InflateDelegate
@@ -737,6 +1408,11 @@ android.app.Notification.Extender
 android.app.UiAutomation.OnAccessibilityEventListener
 android.support.v7.widget.DecorContentParent
 android.support.v7.widget.DecorToolbar
+=======
+com.telerik.widget.chart.visualization.cartesianChart.series.pointrenderers.ChartDataPointRenderer
+android.app.Notification.Extender
+android.app.UiAutomation.OnAccessibilityEventListener
+>>>>>>> 3e19d32d3be9f14e9d25875929a69f89fd27fc14
 android.app.ActionBar.OnMenuVisibilityListener
 android.app.WallpaperManager.OnColorsChangedListener
 android.app.Application.OnProvideAssistDataListener
@@ -771,10 +1447,15 @@ android.provider.ContactsContract.PhoneticNameStyle
 android.provider.CalendarContract.CalendarCacheColumns
 android.provider.Contacts.OrganizationColumns
 android.provider.MediaStore.Video.VideoColumns
+com.telerik.widget.chart.visualization.common.FilledSeries
 android.provider.ContactsContract.SyncColumns
 android.support.v7.widget.ViewStubCompat.OnInflateListener
 android.provider.ContactsContract.DataUsageStatColumns
+<<<<<<< HEAD
 android.support.v7.widget.WithHint
+=======
+com.telerik.widget.chart.visualization.common.PropertyChangedListener
+>>>>>>> 3e19d32d3be9f14e9d25875929a69f89fd27fc14
 android.provider.OpenableColumns
 android.provider.ContactsContract.ContactsColumns
 android.provider.MediaStore.Audio.ArtistColumns
@@ -784,6 +1465,7 @@ android.provider.ContactsContract.CommonDataKinds.CommonColumns
 android.provider.CalendarContract.ColorsColumns
 android.provider.CalendarContract.EventDaysColumns
 android.provider.ContactsContract.ContactOptionsColumns
+com.telerik.widget.chart.visualization.common.StrokedSeries
 android.provider.Contacts.PeopleColumns
 android.provider.BaseColumns
 android.provider.ContactsContract.CommonDataKinds.BaseTypes
@@ -791,6 +1473,7 @@ android.provider.MediaStore.MediaColumns
 android.provider.Contacts.ExtensionsColumns
 android.provider.MediaStore.Audio.AudioColumns
 android.provider.CalendarContract.RemindersColumns
+com.telerik.widget.chart.visualization.common.renderers.ChartLabelRenderer
 android.provider.MediaStore.Images.ImageColumns
 android.support.v4.media.MediaBrowserCompat.ConnectionCallback.ConnectionCallbackInternal
 android.support.v4.media.MediaBrowserCompat.MediaBrowserImpl
@@ -800,7 +1483,10 @@ android.provider.ContactsContract.ContactStatusColumns
 android.provider.ContactsContract.DisplayNameSources
 android.provider.SyncStateContract.Columns
 android.provider.ContactsContract.PhoneLookupColumns
+<<<<<<< HEAD
 android.support.v4.media.MediaBrowserCompat.MediaBrowserServiceCallbackImpl
+=======
+>>>>>>> 3e19d32d3be9f14e9d25875929a69f89fd27fc14
 android.provider.ContactsContract.DeletedContactsColumns
 android.support.v4.media.MediaBrowserCompat.MediaItem.Flags
 android.provider.ContactsContract.GroupsColumns
@@ -810,16 +1496,28 @@ android.provider.CalendarContract.ExtendedPropertiesColumns
 android.support.v4.media.MediaBrowserCompatApi21.ConnectionCallback
 android.support.v4.media.MediaBrowserCompatApi21.SubscriptionCallback
 android.provider.MediaStore.Files.FileColumns
+<<<<<<< HEAD
 android.support.v4.media.MediaBrowserCompatApi23.ItemCallback
 android.support.v4.media.MediaBrowserCompatApi26.SubscriptionCallback
+=======
+com.telerik.widget.palettes.PaletteChangedListener
+>>>>>>> 3e19d32d3be9f14e9d25875929a69f89fd27fc14
 android.provider.MediaStore.Audio.GenresColumns
+com.telerik.widget.primitives.legend.LegendInfoProvider
 android.provider.Contacts.SettingsColumns
 android.provider.CalendarContract.CalendarColumns
 android.provider.CalendarContract.EventsColumns
+com.telerik.widget.primitives.legend.LegendSelectable
 android.provider.Telephony.BaseMmsColumns
+com.telerik.widget.primitives.legend.LegendSelectableListener
+com.telerik.widget.primitives.legend.LegendSelectionListener
 android.provider.ContactsContract.PresenceColumns
+<<<<<<< HEAD
 android.support.v4.media.MediaMetadataCompat.BitmapKey
 android.support.v4.media.MediaMetadataCompat.LongKey
+=======
+com.telerik.widget.primitives.legend.LegendTouchListener.LegendItemClickListener
+>>>>>>> 3e19d32d3be9f14e9d25875929a69f89fd27fc14
 android.provider.ContactsContract.ContactNameColumns
 android.support.v4.media.MediaMetadataCompat.RatingKey
 android.support.v4.media.MediaMetadataCompat.TextKey
@@ -828,32 +1526,62 @@ android.provider.ContactsContract.RawContactsColumns
 android.provider.Contacts.GroupsColumns
 android.provider.Contacts.ContactMethodsColumns
 android.provider.Telephony.ThreadsColumns
+com.telerik.widget.dataform.engine.EditorSetupListener
 android.provider.ContactsContract.SettingsColumns
 android.provider.CalendarContract.AttendeesColumns
+<<<<<<< HEAD
 android.support.v4.media.RatingCompat.StarStyle
 android.support.v4.media.RatingCompat.Style
+=======
+com.telerik.widget.dataform.engine.Entity
+>>>>>>> 3e19d32d3be9f14e9d25875929a69f89fd27fc14
 android.provider.ContactsContract.BaseSyncColumns
 android.provider.MediaStore.Audio.PlaylistsColumns
 android.provider.CalendarContract.SyncColumns
 android.provider.Telephony.CanonicalAddressesColumns
+com.telerik.widget.dataform.engine.EntityProperty
 android.provider.CalendarContract.CalendarAlertsColumns
+com.telerik.widget.dataform.engine.EntityPropertyChangedListener
+com.telerik.widget.dataform.engine.EntityPropertyCommitListener
 android.provider.Contacts.PresenceColumns
 android.provider.MediaStore.Audio.AlbumColumns
+com.telerik.widget.dataform.engine.EntityPropertyEditorChangeListener
 android.os.Parcelable.ClassLoaderCreator
 android.os.IInterface
+<<<<<<< HEAD
 android.support.v4.media.session.MediaControllerCompat.MediaControllerImpl
 android.os.Parcelable.Creator
+=======
+com.telerik.widget.dataform.engine.EntityPropertyValidationListener
+com.telerik.widget.dataform.engine.NotifyPropertyChanged
+android.os.Parcelable.Creator
+com.telerik.widget.dataform.engine.PropertyChangedListener
+com.telerik.widget.dataform.engine.PropertyConverter
+com.telerik.widget.dataform.engine.PropertyValidator
+com.telerik.widget.dataform.engine.PropertyValidatorManual.ValidationProvider
+>>>>>>> 3e19d32d3be9f14e9d25875929a69f89fd27fc14
 android.os.IBinder.DeathRecipient
+com.telerik.widget.dataform.engine.ValidationCompletedListener
 android.os.MessageQueue.OnFileDescriptorEventListener
 android.os.StrictMode.OnThreadViolationListener
+<<<<<<< HEAD
 android.support.v4.media.session.MediaControllerCompatApi21.Callback
+=======
+com.telerik.widget.dataform.visualization.ExpandableEditorGroup.IsExpandedChangedListener
+>>>>>>> 3e19d32d3be9f14e9d25875929a69f89fd27fc14
 android.os.RecoverySystem.ProgressListener
 android.os.ParcelFileDescriptor.OnCloseListener
+com.telerik.widget.dataform.visualization.annotations.DataFormEditorParams
+com.telerik.widget.dataform.visualization.annotations.DataFormProperty
 android.os.MessageQueue.IdleHandler
+com.telerik.widget.dataform.visualization.annotations.DataFormValidator
+com.telerik.widget.dataform.visualization.annotations.DataFormValidatorParams
+com.telerik.widget.dataform.visualization.core.EntityPropertyEditor.OnValidationEventListener
 android.os.StrictMode.OnVmViolationListener
 android.os.CancellationSignal.OnCancelListener
 android.support.v4.media.session.MediaSessionCompat.MediaSessionImpl
 android.os.Handler.Callback
+com.telerik.widget.dataform.visualization.editors.DataFormCustomEditor.DataFormCustomEditorProvider
 android.os.IBinder
 android.os.Parcelable
 android.support.v4.media.session.MediaSessionCompat.OnActiveChangeListener
@@ -863,6 +1591,7 @@ android.content.DialogInterface.OnShowListener
 android.content.DialogInterface.OnClickListener
 android.content.DialogInterface.OnDismissListener
 android.content.ContentProvider.PipeDataWriter
+<<<<<<< HEAD
 android.support.v4.media.session.MediaSessionCompatApi21.Callback
 android.support.v4.media.session.MediaSessionCompatApi23.Callback
 android.support.v4.media.session.MediaSessionCompatApi24.Callback
@@ -874,14 +1603,23 @@ android.support.v4.media.session.PlaybackStateCompat.ShuffleMode
 android.support.v4.media.session.PlaybackStateCompat.State
 android.support.v4.media.AudioAttributesCompat.AttributeContentType
 android.support.v4.media.AudioAttributesCompat.AttributeUsage
+=======
+com.telerik.widget.indicators.GaugeIndicator.OnValueChangedListener
+>>>>>>> 3e19d32d3be9f14e9d25875929a69f89fd27fc14
 android.content.IntentSender.OnFinished
 android.content.ClipboardManager.OnPrimaryClipChangedListener
 android.content.DialogInterface.OnKeyListener
 android.support.v4.media.MediaBrowserServiceCompat.MediaBrowserServiceImpl
 android.content.DialogInterface
 android.content.DialogInterface.OnMultiChoiceClickListener
+com.telerik.android.data.CurrentItemChangedListener
+com.telerik.android.data.DataChangedListener
 android.content.EntityIterator
+<<<<<<< HEAD
 android.support.v4.media.MediaBrowserServiceCompat.ServiceCallbacks
+=======
+com.telerik.android.data.OnJSONDataSourceCreated
+>>>>>>> 3e19d32d3be9f14e9d25875929a69f89fd27fc14
 android.content.ComponentCallbacks
 android.content.SharedPreferences
 android.content.Loader.OnLoadCanceledListener
@@ -889,28 +1627,48 @@ android.support.v4.media.MediaBrowserServiceCompatApi21.ServiceCompatProxy
 android.content.ComponentCallbacks2
 android.support.v4.media.MediaBrowserServiceCompatApi23.ServiceCompatProxy
 android.content.ServiceConnection
+<<<<<<< HEAD
 android.support.v4.media.MediaBrowserServiceCompatApi26.ServiceCompatProxy
 android.support.v4.media.MediaSessionManager.MediaSessionManagerImpl
+=======
+com.telerik.android.data.SelectionAdapter
+com.telerik.android.data.SelectionChangeListener
+com.telerik.widget.list.CollapsedGroupState
+>>>>>>> 3e19d32d3be9f14e9d25875929a69f89fd27fc14
 android.content.SharedPreferences.Editor
 android.support.v4.media.MediaSessionManager.RemoteUserInfoImpl
 android.content.Loader.OnLoadCompleteListener
+<<<<<<< HEAD
 android.support.v4.media.VolumeProviderCompat.ControlType
 android.content.res.XmlResourceParser
 android.support.v4.media.VolumeProviderCompatApi21.Delegate
+=======
+com.telerik.widget.list.CollapsibleGroupsBehavior.CollapseGroupListener
+android.content.res.XmlResourceParser
+com.telerik.widget.list.CurrentPositionChangeListener
+>>>>>>> 3e19d32d3be9f14e9d25875929a69f89fd27fc14
 android.content.SyncStatusObserver
 android.content.SharedPreferences.OnSharedPreferenceChangeListener
+com.telerik.widget.list.GroupAdapter
 android.drm.DrmManagerClient.OnInfoListener
 android.drm.DrmManagerClient.OnEventListener
+com.telerik.widget.list.ItemReorderBehavior.ItemReorderListener
 android.drm.DrmStore.ConstraintsColumns
 android.drm.DrmManagerClient.OnErrorListener
 android.util.Printer
 android.support.transition.AnimatorUtils.AnimatorPauseListenerCompat
 android.util.AttributeSet
+com.telerik.widget.list.LoadOnDemandBehavior.LoadOnDemandListener
+com.telerik.widget.list.LoadOnDemandBehavior.LoadingListener
+com.telerik.widget.list.RadListView.IsEmptyChangedListener
+com.telerik.widget.list.RadListView.ItemClickListener
+com.telerik.widget.list.SelectionBehavior.SelectionChangedListener
 android.media.MediaPlayer.OnCompletionListener
 android.media.MediaScannerConnection.OnScanCompletedListener
 android.support.transition.GhostViewImpl
 android.media.VolumeAutomation
 android.media.AudioTrack.OnRoutingChangedListener
+com.telerik.widget.list.SwipeActionsBehavior.SwipeActionsListener
 android.media.MediaDrm.HdcpLevel
 android.media.ImageWriter.OnImageReleasedListener
 android.media.MediaSync.OnErrorListener
@@ -918,6 +1676,7 @@ android.support.transition.Slide.CalculateSlide
 android.media.RemoteControlClient.OnGetPlaybackPositionListener
 android.support.transition.Slide.GravityFlag
 android.media.MediaPlayer.OnVideoSizeChangedListener
+<<<<<<< HEAD
 android.support.transition.Styleable.ArcMotion
 android.support.transition.Styleable.ChangeBounds
 android.support.transition.Styleable.ChangeTransform
@@ -932,6 +1691,13 @@ android.support.transition.Styleable.VisibilityTransition
 android.media.session.MediaSessionManager.OnActiveSessionsChangedListener
 android.support.transition.Transition.MatchOrder
 android.support.transition.Transition.TransitionListener
+=======
+com.telerik.widget.list.SwipeExecuteBehavior.SwipeExecuteDismissedListener
+com.telerik.widget.list.SwipeExecuteBehavior.SwipeExecuteListener
+android.media.session.MediaSessionManager.OnActiveSessionsChangedListener
+com.telerik.widget.list.SwipeRefreshBehavior.RefreshListener
+com.telerik.widget.list.SwipeRefreshBehavior.SwipeRefreshListener
+>>>>>>> 3e19d32d3be9f14e9d25875929a69f89fd27fc14
 android.media.MediaDrm.OnExpirationUpdateListener
 android.media.MediaCas.EventListener
 android.media.RemoteControlClient.OnPlaybackPositionUpdateListener
@@ -1032,6 +1798,7 @@ android.net.wifi.p2p.WifiP2pManager.ServiceResponseListener
 android.net.sip.SipRegistrationListener
 com.telerik.widget.indicators.GaugeIndicator.OnValueChangedListener
 android.net.UrlQuerySanitizer.ValueSanitizer
+<<<<<<< HEAD
 com.facebook.crypto.CryptoAlgo
 android.net.ConnectivityManager.OnNetworkActiveListener
 com.facebook.crypto.keychain.KeyChain
@@ -1039,6 +1806,9 @@ com.facebook.crypto.proguard.annotations.DoNotStrip
 com.facebook.crypto.proguard.annotations.InternalBuildOnly
 com.facebook.crypto.proguard.annotations.KeepGettersAndSetters
 com.facebook.crypto.util.NativeCryptoLibrary
+=======
+android.net.ConnectivityManager.OnNetworkActiveListener
+>>>>>>> 3e19d32d3be9f14e9d25875929a69f89fd27fc14
 android.net.nsd.NsdManager.DiscoveryListener
 android.net.nsd.NsdManager.ResolveListener
 android.net.nsd.NsdManager.RegistrationListener
@@ -1064,8 +1834,11 @@ android.view.Window.Callback
 android.view.View.OnGenericMotionListener
 android.view.View.OnScrollChangeListener
 android.view.textclassifier.TextClassifier
+<<<<<<< HEAD
 com.telerik.widget.list.LoadOnDemandBehavior.LoadOnDemandListener
 com.telerik.widget.list.LoadOnDemandBehavior.LoadingListener
+=======
+>>>>>>> 3e19d32d3be9f14e9d25875929a69f89fd27fc14
 android.view.textclassifier.TextClassificationSessionFactory
 com.telerik.widget.list.RadListView.IsEmptyChangedListener
 com.telerik.widget.list.RadListView.ItemClickListener
@@ -1109,7 +1882,10 @@ android.view.ViewTreeObserver.OnDrawListener
 android.support.v4.app.FragmentManagerImpl.OpGenerator
 android.view.WindowManager
 android.view.SurfaceHolder.Callback2
+<<<<<<< HEAD
 com.telerik.widget.list.SwipeRefreshBehavior.RefreshListener
+=======
+>>>>>>> 3e19d32d3be9f14e9d25875929a69f89fd27fc14
 android.view.View.OnKeyListener
 android.view.ViewTreeObserver.OnPreDrawListener
 com.telerik.widget.list.SwipeRefreshBehavior.SwipeRefreshListener

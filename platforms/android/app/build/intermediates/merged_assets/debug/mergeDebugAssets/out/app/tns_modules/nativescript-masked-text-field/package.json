@@ -1,0 +1,76 @@
+{
+  "_from": "nativescript-masked-text-field",
+  "_id": "nativescript-masked-text-field@4.0.1",
+  "_inBundle": false,
+  "_integrity": "sha512-QTtc9h1vIsNCS2NUYCGXwOIld2hd4XxD6cSooXwnY/XkNc+Vhtn2yyE0iZmX7s8tvjY+MI95LCgYAN5j1h2LfQ==",
+  "_location": "/nativescript-masked-text-field",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "nativescript-masked-text-field",
+    "name": "nativescript-masked-text-field",
+    "escapedName": "nativescript-masked-text-field",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/nativescript-masked-text-field/-/nativescript-masked-text-field-4.0.1.tgz",
+  "_shasum": "c5bcae63bc8afcbfdb3a798c8f831ba536a79a6b",
+  "_spec": "nativescript-masked-text-field",
+  "_where": "C:\\Users\\Caua Coelho\\Desktop\\Ultrafarma",
+  "author": {
+    "name": "Peter Staev",
+    "email": "peter@tangrasoft.com"
+  },
+  "bugs": {
+    "url": "https://github.com/PeterStaev/nativescript-masked-text-field/issues"
+  },
+  "bundleDependencies": false,
+  "contributors": [
+    {
+      "name": "newapx",
+      "url": "https://github.com/newapx"
+    }
+  ],
+  "deprecated": false,
+  "description": "A NativeScript masked text field widget.",
+  "homepage": "https://github.com/PeterStaev/nativescript-masked-text-field#readme",
+  "keywords": [
+    "NativeScript",
+    "masked input",
+    "mask",
+    "masked text field",
+    "phone",
+    "ssn",
+    "tangra"
+  ],
+  "license": "Apache-2.0",
+  "main": "masked-text-field",
+  "name": "nativescript-masked-text-field",
+  "nativescript": {
+    "platforms": {
+      "android": "5.0.0",
+      "ios": "5.0.0"
+    },
+    "plugin": {
+      "nan": "true",
+      "pan": "true",
+      "core3": "true",
+      "category": "Interface"
+    }
+  },
+  "peerDependencies": {
+    "tns-core-modules": ">=5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PeterStaev/nativescript-masked-text-field.git"
+  },
+  "typings": "masked-text-field.d.ts",
+  "version": "4.0.1"
+}
