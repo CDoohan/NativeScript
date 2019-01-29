@@ -11,6 +11,7 @@
 <ScrollView orientation="vertical" sdkExampleTitle sdkToggleNavButton>
     <StackLayout orientation="vertical" class="body">
         <StackLayout orientation="vertical" class="category-box">
+<<<<<<< HEAD
             <Label text="MEU" class="category-box-title one"></Label>
             <Label text="DESCONTO" class="category-box-title second"></Label>
             <GridLayout>
@@ -87,6 +88,119 @@
                     <Label text="veja mais" style="text-align:right" top="190" left="100%"></Label>
                 </AbsoluteLayout> -->
             </GridLayout>
+=======
+            <StackLayout class="category-box-title">
+                <Image ios:horizontalAlignment="center" android:horizontalAlignment="center" row="0" col="1" class="category-image-title" stretch="fill" width="100" src="~/images/titles/meus-descontos.png"></Image>
+            </StackLayout>
+            <Carousel #carousel showIndicator="false" ios:finite="true" ios:bounce="false" height="475px" width="100%">
+                <CarouselItem>
+                    <GridLayout columns="auto,100" rows="auto,auto" width="100%" height="100">
+                        <Image src="~/images/produto.png" stretch="fill" width="100px" height="100px" col="0" row="0"></Image>
+                        <Label text="Teste label 1" col="1" row="0"></Label>
+                        <Label text="Teste label 2" col="1" row="1"></Label>
+                    </GridLayout>
+                </CarouselItem>
+                <CarouselItem>
+                    <Image src="~/images/meus_pedidos.jpg" stretch="none"></Image>
+                </CarouselItem>
+                <CarouselItem>
+                    <Image src="~/images/meu_cadastro.jpg" stretch="none"></Image>
+                </CarouselItem>
+                <CarouselItem>
+                    <Image src="~/images/avaliacao.jpg" stretch="none"></Image>
+                </CarouselItem>
+                <CarouselItem>
+                    <Image src="~/images/money_back.jpg" stretch="none"></Image>
+                </CarouselItem>
+                <CarouselItem>
+                    <Image src="~/images/promocoes.jpg" stretch="none"></Image>
+                </CarouselItem>
+            </Carousel>
         </StackLayout>
+        <StackLayout orientation="vertical" class="category-box">
+            <StackLayout class="category-box-title">
+                <Image ios:horizontalAlignment="center" android:horizontalAlignment="center" row="0" col="1" class="category-image-title" stretch="fill" width="100" src="~/images/titles/meus-premios.png"></Image>
+            </StackLayout>
+            <Carousel #carousel showIndicator="false" ios:finite="true" ios:bounce="false" height="475px" width="100%">
+                <CarouselItem>
+                    <GridLayout columns="100,auto" rows="auto,auto" width="100%" height="auto">
+                        <Image src="~/images/produto.png" stretch="fill" width="100px" height="100px" col="0" row="0"></Image>
+                        <GridLayout columns="auto,100" rows="auto,auto">
+                            <Label text="Teste label 1" col="1" row="0"></Label>
+                            <Label text="Teste label 2" col="1" row="1"></Label>
+                        </GridLayout>
+                    </GridLayout>
+                </CarouselItem>
+                <CarouselItem>
+                    <Image src="~/images/meus_pedidos.jpg" stretch="none"></Image>
+                </CarouselItem>
+                <CarouselItem>
+                    <Image src="~/images/meu_cadastro.jpg" stretch="none"></Image>
+                </CarouselItem>
+                <CarouselItem>
+                    <Image src="~/images/avaliacao.jpg" stretch="none"></Image>
+                </CarouselItem>
+                <CarouselItem>
+                    <Image src="~/images/money_back.jpg" stretch="none"></Image>
+                </CarouselItem>
+                <CarouselItem>
+                    <Image src="~/images/promocoes.jpg" stretch="none"></Image>
+                </CarouselItem>
+            </Carousel>
+>>>>>>> 95c23042a3bce1a1f786703c9890d8437957999b
+        </StackLayout>
+        <GridLayout columns="auto, auto" rows="auto, auto, auto, auto" width="100%" height="auto" class="grid-boxs">
+            <StackLayout row="0" col="0" class="box first" width="48%">
+                <Label width="100%" [text]="buyBox" class="fa icon-box"></Label>
+                <Label width="100%" text="Compre Online" class="title-box"></Label>
+                <Label width="100%" text="Sua loja no APP" class="span-box"></Label>
+            </StackLayout>
+            <StackLayout row="0" col="1" class="box" width="48%">
+                <Label width="100%" [text]="adegaBox" class="fa icon-box"></Label>
+                <Label width="100%" text="Adega" class="title-box"></Label>
+                <Label width="100%" text="Sua loja de Bebidas" class="span-box"></Label>
+            </StackLayout>
+            <StackLayout row="1" col="0" class="box first" width="48%">
+                <Label width="100%" [text]="caixaBox" class="fa icon-box"></Label>
+                <Label width="100%" text="Caixa Express" class="title-box"></Label>
+                <Label width="100%" text="Agende seu horário" class="span-box"></Label>
+            </StackLayout>
+            <StackLayout row="1" col="1" class="box" width="48%">
+                <Label width="100%" [text]="listBox" class="fa icon-box"></Label>
+                <Label width="100%" text="Minha Lista" class="title-box"></Label>
+                <Label width="100%" text="Organize suas compras" class="span-box"></Label>
+            </StackLayout>
+            <StackLayout row="2" col="0" class="box first" width="48%">
+                <Label width="100%" [text]="walletBox" class="fa icon-box"></Label>
+                <Label width="100%" text="Carteira Virtual" class="title-box"></Label>
+                <Label width="100%" text="Confira seus prêmios" class="span-box"></Label>
+            </StackLayout>
+            <StackLayout row="2" col="1" class="box" width="48%">
+                <Label width="100%" [text]="gearBox" class="fa icon-box"></Label>
+                <Label width="100%" text="Minhas Preferências" class="title-box"></Label>
+                <Label width="100%" text="Agilidade no caixa" class="span-box"></Label>
+            </StackLayout>
+            <StackLayout row="3" col="0" class="box first" width="48%">
+                <Label width="100%" [text]="cupomBox" class="fa icon-box"></Label>
+                <Label width="100%" text="Cupom Fiscal" class="title-box"></Label>
+                <Label width="100%" text="Consulte suas compras" class="span-box"></Label>
+            </StackLayout>
+            <StackLayout row="3" col="1" class="box" width="48%">
+                <Label width="100%" [text]="storeBox" class="fa icon-box"></Label>
+                <Label width="100%" text="Lojas" class="title-box"></Label>
+                <Label width="100%" text="Encontre nossas lojas" class="span-box"></Label>
+            </StackLayout>
+        </GridLayout>
+        <ScrollView orientation="horizontal" sdkExampleTitle sdkToggleNavButton>
+            <GridLayout row="auto" columns="auto, auto, auto, auto, auto, auto" class="about-more-list">
+                <Image row="0" col="0" src="~/images/banners/conheca-mais.png" stretch="fill" class="about-more-item first"></Image>
+                <Image row="0" col="1" src="~/images/banners/conheca-mais2.png" stretch="fill" class="about-more-item"></Image>
+                <Image row="0" col="2" src="~/images/banners/conheca-mais3.png" stretch="fill" class="about-more-item"></Image>
+                <Image row="0" col="3" src="~/images/banners/conheca-mais.png" stretch="fill" class="about-more-item"></Image>
+                <Image row="0" col="4" src="~/images/banners/conheca-mais2.png" stretch="fill" class="about-more-item"></Image>
+                <Image row="0" col="5" src="~/images/banners/conheca-mais3.png" stretch="fill" class="about-more-item"></Image>
+                <Image row="0" col="6" src="~/images/banners/conheca-mais.png" stretch="fill" class="about-more-item last"></Image>
+            </GridLayout>
+        </ScrollView>
     </StackLayout>
 </ScrollView>

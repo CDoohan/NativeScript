@@ -23,6 +23,15 @@ export class HomeComponent implements OnInit, AfterViewInit {
 
     public navbarIcon = String.fromCharCode(0xf0c9);
     public notifyIcon = String.fromCharCode(0xf0f3);
+    public buyBox = String.fromCharCode(0xf291);
+    public adegaBox = String.fromCharCode(0xf0fc);
+    public caixaBox = String.fromCharCode(0xf017);
+    public listBox = String.fromCharCode(0xf15c);
+    public walletBox = String.fromCharCode(0xf155);
+    public gearBox = String.fromCharCode(0xf085);
+    public cupomBox = String.fromCharCode(0xf15c);
+    public storeBox = String.fromCharCode(0xf015);
+
 
     constructor(private userService: UserService, private itemService: ItemService, private routerExtensions: RouterExtensions) {
     }
