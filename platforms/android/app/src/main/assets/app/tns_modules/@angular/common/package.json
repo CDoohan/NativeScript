@@ -1,10 +1,4 @@
 {
-  "_args": [
-    [
-      "@angular/common@7.1.2",
-      "C:\\Users\\Doohan\\Desktop\\NativeScript"
-    ]
-  ],
   "_from": "@angular/common@7.1.2",
   "_id": "@angular/common@7.1.2",
   "_inBundle": false,
@@ -26,17 +20,20 @@
     "/"
   ],
   "_resolved": "https://registry.npmjs.org/@angular/common/-/common-7.1.2.tgz",
-  "_spec": "7.1.2",
-  "_where": "C:\\Users\\Doohan\\Desktop\\NativeScript",
+  "_shasum": "506e48b18dd8c9dd8c97e61585ad0647079e6c05",
+  "_spec": "@angular/common@7.1.2",
+  "_where": "C:\\Users\\Caua Coelho\\Desktop\\Ultrafarma",
   "author": {
     "name": "angular"
   },
   "bugs": {
     "url": "https://github.com/angular/angular/issues"
   },
+  "bundleDependencies": false,
   "dependencies": {
     "tslib": "^1.9.0"
   },
+  "deprecated": false,
   "description": "Angular - commonly needed directives and services",
   "es2015": "./fesm2015/common.js",
   "esm2015": "./esm2015/common.js",

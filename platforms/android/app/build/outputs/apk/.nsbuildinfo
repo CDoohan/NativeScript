@@ -1,9 +1,18 @@
 {
 <<<<<<< HEAD
+<<<<<<< HEAD
 	"prepareTime": "Tue Jan 29 2019 15:23:10 GMT-0200 (GMT-02:00)",
 	"buildTime": "Tue Jan 29 2019 15:42:50 GMT-0200 (GMT-02:00)"
 =======
 	"prepareTime": "Tue Jan 29 2019 17:35:20 GMT-0200 (GMT-02:00)",
 	"buildTime": "Tue Jan 29 2019 17:45:15 GMT-0200 (GMT-02:00)"
 >>>>>>> 95c23042a3bce1a1f786703c9890d8437957999b
+=======
+	"prepareTime": "Tue Jan 29 2019 13:52:39 GMT-0200 (GMT-02:00)",
+	"buildTime": "Tue Jan 29 2019 14:00:23 GMT-0200 (GMT-02:00)"
+=======
+	"prepareTime": "Tue Jan 29 2019 11:01:06 GMT-0200 (GMT-02:00)",
+	"buildTime": "Tue Jan 29 2019 11:07:37 GMT-0200 (GMT-02:00)"
+>>>>>>> 0f7afd6690692441e43dce0cee0a0b94f7b02d7d
+>>>>>>> 6db2a5d5a6df09bdb1475d25c48fcb518fe853a8
 }

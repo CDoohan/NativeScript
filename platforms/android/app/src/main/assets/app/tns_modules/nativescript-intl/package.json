@@ -1,10 +1,4 @@
 {
-  "_args": [
-    [
-      "nativescript-intl@3.0.0",
-      "C:\\Users\\Doohan\\Desktop\\NativeScript"
-    ]
-  ],
   "_from": "nativescript-intl@3.0.0",
   "_id": "nativescript-intl@3.0.0",
   "_inBundle": false,
@@ -26,11 +20,14 @@
     "/nativescript-angular"
   ],
   "_resolved": "https://registry.npmjs.org/nativescript-intl/-/nativescript-intl-3.0.0.tgz",
-  "_spec": "3.0.0",
-  "_where": "C:\\Users\\Doohan\\Desktop\\NativeScript",
+  "_shasum": "82ee9be7d377172b3c4295734723037628e186a7",
+  "_spec": "nativescript-intl@3.0.0",
+  "_where": "C:\\Users\\Caua Coelho\\Desktop\\Ultrafarma",
   "author": {
     "name": "NativeScript Team"
   },
+  "bundleDependencies": false,
+  "deprecated": false,
   "description": "Provides API for using Native date, time and number formatting with an API similar to Intl.js",
   "keywords": [
     "NativeScript",

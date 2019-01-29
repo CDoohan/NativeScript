@@ -2,7 +2,10 @@
 	"time": "Tue Jan 29 2019 17:50:38 GMT-0200 (GMT-02:00)",
 	"nativePlatformStatus": "3",
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 6db2a5d5a6df09bdb1475d25c48fcb518fe853a8
 	"appFilesHashes": {
 		"C:\\Users\\Caua Coelho\\Desktop\\Ultrafarma\\app\\app-routing.module.ts": "3e3e8c3b8e7bd398ab3b1238995707d409efc6c5",
 		"C:\\Users\\Caua Coelho\\Desktop\\Ultrafarma\\app\\app-routing.module.js": "d89da39766a8bc5968165fef686ba4625f76c695",
@@ -59,13 +62,27 @@
 		"C:\\Users\\Caua Coelho\\Desktop\\Ultrafarma\\app\\images\\produto.png": "73ee1a37dd9d8eae0465dfff8d0161f600e8fd96"
 	},
 	"release": false,
+<<<<<<< HEAD
 >>>>>>> 95c23042a3bce1a1f786703c9890d8437957999b
+=======
+=======
+>>>>>>> 0f7afd6690692441e43dce0cee0a0b94f7b02d7d
+>>>>>>> 6db2a5d5a6df09bdb1475d25c48fcb518fe853a8
 	"bundle": false,
 	"release": false,
 	"changesRequireBuild": false,
 <<<<<<< HEAD
+<<<<<<< HEAD
 	"projectFileHash": "6140be9837fd0a1a88d1af259f04a6aba6c573517b5dd15b92fcec20fdfeceae",
 	"changesRequireBuildTime": "Tue Jan 29 2019 15:23:10 GMT-0200 (GMT-02:00)",
+=======
+	"time": "Tue Jan 29 2019 17:07:54 GMT-0200 (GMT-02:00)",
+	"changesRequireBuildTime": "Tue Jan 29 2019 13:52:39 GMT-0200 (GMT-02:00)",
+	"projectFileHash": "8260e8d1e40ea4cf73a472bc49008de4d4e1b91704b2ddfb664a8905e0ba1410"
+=======
+	"projectFileHash": "1f57b113568729de069e7648250b3e72cef23f1512d2581eb83917be1ea76e16",
+	"changesRequireBuildTime": "Tue Jan 29 2019 11:01:06 GMT-0200 (GMT-02:00)",
+>>>>>>> 6db2a5d5a6df09bdb1475d25c48fcb518fe853a8
 	"appFilesHashes": {
 		"C:\\Users\\Doohan\\Desktop\\NativeScript\\app\\app-routing.module.ts": "6a0ddb4557fd898194b6855e07874734b055718e",
 		"C:\\Users\\Doohan\\Desktop\\NativeScript\\app\\app.component.html": "c6301e88710078742cb95204e6707bfe649cb942",
@@ -116,9 +133,13 @@
 		"C:\\Users\\Doohan\\Desktop\\NativeScript\\app\\images\\showroom.jpg": "eec57e92e8a0e1d4fe23d240be161e304fff39e5",
 		"C:\\Users\\Doohan\\Desktop\\NativeScript\\app\\images\\produto.png": "73ee1a37dd9d8eae0465dfff8d0161f600e8fd96"
 	}
+<<<<<<< HEAD
 =======
 	"time": "Tue Jan 29 2019 19:42:59 GMT-0200 (GMT-02:00)",
 	"changesRequireBuildTime": "Tue Jan 29 2019 17:35:20 GMT-0200 (GMT-02:00)",
 	"projectFileHash": "c08395e45a0846cf4578e930c50dd6a484c05fc46fb45a25eb29a0415a7beef4"
 >>>>>>> 95c23042a3bce1a1f786703c9890d8437957999b
+=======
+>>>>>>> 0f7afd6690692441e43dce0cee0a0b94f7b02d7d
+>>>>>>> 6db2a5d5a6df09bdb1475d25c48fcb518fe853a8
 }

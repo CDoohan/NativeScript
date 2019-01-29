@@ -1,10 +1,4 @@
 {
-  "_args": [
-    [
-      "nativescript-angular@7.1.0",
-      "C:\\Users\\Doohan\\Desktop\\NativeScript"
-    ]
-  ],
   "_from": "nativescript-angular@7.1.0",
   "_id": "nativescript-angular@7.1.0",
   "_inBundle": false,
@@ -25,8 +19,9 @@
     "/"
   ],
   "_resolved": "https://registry.npmjs.org/nativescript-angular/-/nativescript-angular-7.1.0.tgz",
-  "_spec": "7.1.0",
-  "_where": "C:\\Users\\Doohan\\Desktop\\NativeScript",
+  "_shasum": "fd7e1c52bb4041e3ab32b6a1c165f1b1510953d9",
+  "_spec": "nativescript-angular@7.1.0",
+  "_where": "C:\\Users\\Caua Coelho\\Desktop\\Ultrafarma",
   "author": {
     "name": "NativeScript Team"
   },
@@ -36,6 +31,7 @@
   "bugs": {
     "url": "https://github.com/NativeScript/nativescript-angular/issues"
   },
+  "bundleDependencies": false,
   "contributors": [
     {
       "name": "Hristo Deshev",
@@ -54,6 +50,7 @@
     "nativescript-intl": "^3.0.0",
     "reflect-metadata": "^0.1.8"
   },
+  "deprecated": false,
   "description": "An Angular renderer that lets you build mobile apps with NativeScript.",
   "devDependencies": {
     "@angular/animations": "~7.1.0",

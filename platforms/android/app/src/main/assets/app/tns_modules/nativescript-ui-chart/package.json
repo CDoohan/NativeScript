@@ -1,10 +1,4 @@
 {
-  "_args": [
-    [
-      "nativescript-ui-chart@3.11.1",
-      "C:\\Users\\Doohan\\Desktop\\NativeScript"
-    ]
-  ],
   "_from": "nativescript-ui-chart@3.11.1",
   "_id": "nativescript-ui-chart@3.11.1",
   "_inBundle": false,
@@ -25,8 +19,9 @@
     "/"
   ],
   "_resolved": "https://registry.npmjs.org/nativescript-ui-chart/-/nativescript-ui-chart-3.11.1.tgz",
-  "_spec": "3.11.1",
-  "_where": "C:\\Users\\Doohan\\Desktop\\NativeScript",
+  "_shasum": "05172ca3135ca08f4a4ed7e103d5283dd83e73e8",
+  "_spec": "nativescript-ui-chart@3.11.1",
+  "_where": "C:\\Users\\Caua Coelho\\Desktop\\Ultrafarma",
   "author": {
     "name": "NativeScript Team",
     "email": "nativescriptplugins@progress.com"
@@ -35,9 +30,11 @@
   "bugs": {
     "url": "https://github.com/telerik/nativescript-ui-feedback/issues"
   },
+  "bundleDependencies": false,
   "dependencies": {
     "nativescript-ui-core": "~2.0.0"
   },
+  "deprecated": false,
   "description": "Create beautiful and flexible charts with smooth interaction and zooming - area, line, pie, scatter and more.",
   "devDependencies": {
     "@angular/common": "~7.0.0",
