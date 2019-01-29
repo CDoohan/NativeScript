@@ -38,6 +38,10 @@ export class HomeComponent implements OnInit, AfterViewInit {
         }
     }
 
+    showNotification(){
+        this.notifyIcon = String.fromCharCode(0xf27a);
+    }
+
     logout() {
         this.processing = true;
         this.userService.logout();
