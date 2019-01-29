@@ -14,75 +14,79 @@
             <Label text="MEU" class="category-box-title one"></Label>
             <Label text="DESCONTO" class="category-box-title second"></Label>
             <GridLayout>
-                    <Carousel 
+                <Carousel 
                     #carousel 
                     className="teste" 
                     showIndicator="true" 
                     indicatorAnimation="worm" 
                     indicatorColor="#328035" 
                     indicatorColorUnselected="#d8ffcc" 
-                    indicatorOffset="100, 100"
-                    height="300px" 
+                    indicatorOffset="0,15"
+                    height="320px" 
                     width="100%" 
-                    backgroundColor="red"
                 >   
                     <CarouselItem verticalAlignment="middle">
-                        <StackLayout marginLeft="25%" marginRight="25%">
-                            <GridLayout columns="auto, *, auto" rows="auto, 25" verticalAlignment="middle">
+                        <StackLayout marginLeft="25%" marginRight="15%">
+                            <GridLayout columns="auto, *" rows="auto, *" verticalAlignment="middle">
                                 <Image src="~/images/produto.png" rowSpan="2" width="auto" height="180" margin="3" verticalAlignment="top"></Image>
-                                <Label text="Suas compras valem prêmios" color="#0c3e23" textWrap="true" col="1" colSpan="2" fontSize="18" marginTop="10"></Label>
-                                <Label text="Vale compra de R$10" color="#0c3e23" col="1" row="1" fontSize="14" horizontalAlignment="left" verticalAlignment="top"></Label>
+                                <Label className="title" text="Suas compras valem prêmios" color="#0c3e23" textWrap="true" col="1" colSpan="2" fontSize="18" verticalAlignment="top"></Label>
+                                <Label text="Vale compra de R$10" color="#0c3e23" col="1" row="1" fontSize="14" horizontalAlignment="left"></Label>
                             </GridLayout>
                         </StackLayout>
                     </CarouselItem>
                     <CarouselItem verticalAlignment="middle">
-                        <StackLayout marginLeft="25%" marginRight="25%">
-                            <GridLayout columns="auto, *, auto" rows="auto, 25" verticalAlignment="middle">
+                        <StackLayout marginLeft="25%" marginRight="15%">
+                            <GridLayout columns="auto, *" rows="auto, *" verticalAlignment="middle">
                                 <Image src="~/images/produto.png" rowSpan="2" width="auto" height="180" margin="3" verticalAlignment="top"></Image>
-                                <Label text="Suas compras valem prêmios" color="#0c3e23" textWrap="true" col="1" colSpan="2" fontSize="18" marginTop="10"></Label>
-                                <Label text="Vale compra de R$10" color="#0c3e23" col="1" row="1" fontSize="14" horizontalAlignment="left" verticalAlignment="top"></Label>
+                                <Label className="title" text="Suas compras valem prêmios" color="#0c3e23" textWrap="true" col="1" colSpan="2" fontSize="18" verticalAlignment="top"></Label>
+                                <Label text="Vale compra de R$10" color="#0c3e23" col="1" row="1" fontSize="14" horizontalAlignment="left"></Label>
                             </GridLayout>
                         </StackLayout>
                     </CarouselItem>
                 </Carousel>
+                <!-- <AbsoluteLayout width="100%" >
+                    <Label text="veja mais" style="text-align:right" top="190" left="100%"></Label>
+                </AbsoluteLayout> -->
             </GridLayout>
-            <FlexboxLayout className="see-more" flexDirection="column" width="100%" height="50" backgroundColor="lightgray">
-                <Button text="veja mais" width="auto" height="50" ></Button>
-            </FlexboxLayout>
         </StackLayout>
         <StackLayout orientation="vertical" class="category-box">
             <Label text="MEUS" class="category-box-title one"></Label>
             <Label text="PRÊMIOS" class="category-box-title second"></Label>
-            <Carousel 
-                #carousel 
-                className="teste" 
-                showIndicator="true" 
-                indicatorAnimation="worm" 
-                indicatorColor="#328035" 
-                indicatorColorUnselected="#d8ffcc" 
-                height="300px" 
-                width="100%" 
-                backgroundColor="red"
-            >   
-                <CarouselItem verticalAlignment="middle">
-                    <StackLayout marginLeft="25%" marginRight="25%">
-                        <GridLayout columns="auto, *, auto" rows="auto, 25" verticalAlignment="middle">
-                            <Image src="~/images/produto.png" rowSpan="2" width="auto" height="180" margin="3" verticalAlignment="top"></Image>
-                            <Label text="Suas compras valem prêmios" color="#0c3e23" textWrap="true" col="1" colSpan="2" fontSize="18" marginTop="10"></Label>
-                            <Label text="Vale compra de R$10" color="#0c3e23" col="1" row="1" fontSize="14" horizontalAlignment="left" verticalAlignment="top"></Label>
-                        </GridLayout>
-                    </StackLayout>
-                </CarouselItem>
-                <CarouselItem verticalAlignment="middle">
-                    <StackLayout marginLeft="25%" marginRight="25%">
-                        <GridLayout columns="auto, *, auto" rows="auto, 25" verticalAlignment="middle">
-                            <Image src="~/images/produto.png" rowSpan="2" width="auto" height="180" margin="3" verticalAlignment="top"></Image>
-                            <Label text="Suas compras valem prêmios" color="#0c3e23" textWrap="true" col="1" colSpan="2" fontSize="18" marginTop="10"></Label>
-                            <Label text="Vale compra de R$10" color="#0c3e23" col="1" row="1" fontSize="14" horizontalAlignment="left" verticalAlignment="top"></Label>
-                        </GridLayout>
-                    </StackLayout>
-                </CarouselItem>
-            </Carousel>
+            <GridLayout>
+                <Carousel 
+                    #carousel 
+                    className="teste" 
+                    showIndicator="true" 
+                    indicatorAnimation="worm" 
+                    indicatorColor="#328035" 
+                    indicatorColorUnselected="#d8ffcc" 
+                    indicatorOffset="0,15"
+                    height="320px" 
+                    width="100%" 
+                >   
+                    <CarouselItem verticalAlignment="middle">
+                        <StackLayout marginLeft="25%" marginRight="15%">
+                            <GridLayout columns="auto, *" rows="auto, *" verticalAlignment="middle">
+                                <Image src="~/images/produto.png" rowSpan="2" width="auto" height="180" margin="3" verticalAlignment="top"></Image>
+                                <Label className="title" text="Suas compras valem prêmios" color="#0c3e23" textWrap="true" col="1" colSpan="2" fontSize="18" verticalAlignment="top"></Label>
+                                <Label text="Vale compra de R$10" color="#0c3e23" col="1" row="1" fontSize="14" horizontalAlignment="left"></Label>
+                            </GridLayout>
+                        </StackLayout>
+                    </CarouselItem>
+                    <CarouselItem verticalAlignment="middle">
+                        <StackLayout marginLeft="25%" marginRight="15%">
+                            <GridLayout columns="auto, *" rows="auto, *" verticalAlignment="middle">
+                                <Image src="~/images/produto.png" rowSpan="2" width="auto" height="180" margin="3" verticalAlignment="top"></Image>
+                                <Label className="title" text="Suas compras valem prêmios" color="#0c3e23" textWrap="true" col="1" colSpan="2" fontSize="18" verticalAlignment="top"></Label>
+                                <Label text="Vale compra de R$10" color="#0c3e23" col="1" row="1" fontSize="14" horizontalAlignment="left"></Label>
+                            </GridLayout>
+                        </StackLayout>
+                    </CarouselItem>
+                </Carousel>
+                <!-- <AbsoluteLayout width="100%" >
+                    <Label text="veja mais" style="text-align:right" top="190" left="100%"></Label>
+                </AbsoluteLayout> -->
+            </GridLayout>
         </StackLayout>
     </StackLayout>
 </ScrollView>
