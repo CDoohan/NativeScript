@@ -16,7 +16,7 @@ import { UserService } from "../shared/user.service";
     styleUrls: ['./home.component.css']
 })
 
-export class HomeComponent implements OnInit, AfterViewInit {
+export class HomeComponent implements OnInit, AfterViewInit {    
     @ViewChild('carousel') carouselRef: ElementRef;
     items: Item[];
 

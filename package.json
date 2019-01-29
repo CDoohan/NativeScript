@@ -53,7 +53,7 @@
     "@ngtools/webpack": "7.0.7",
     "nativescript-dev-typescript": "0.7.8",
     "nativescript-dev-webpack": "0.18.2",
-    "tns-platform-declarations": "5.1.0",
+    "tns-platform-declarations": "^5.1.0",
     "typescript": "3.1.6"
   }
 }

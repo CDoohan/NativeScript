@@ -1,4 +1,10 @@
 {
+  "_args": [
+    [
+      "nativescript-ui-autocomplete@3.10.3",
+      "C:\\Users\\Doohan\\Desktop\\NativeScript"
+    ]
+  ],
   "_from": "nativescript-ui-autocomplete@3.10.3",
   "_id": "nativescript-ui-autocomplete@3.10.3",
   "_inBundle": false,
@@ -20,9 +26,8 @@
     "/nativescript-ui-dataform"
   ],
   "_resolved": "https://registry.npmjs.org/nativescript-ui-autocomplete/-/nativescript-ui-autocomplete-3.10.3.tgz",
-  "_shasum": "b510e6d968852e08bc58e3a7999e6345f2e62fc8",
-  "_spec": "nativescript-ui-autocomplete@3.10.3",
-  "_where": "C:\\Users\\Caua Coelho\\Desktop\\Ultrafarma",
+  "_spec": "3.10.3",
+  "_where": "C:\\Users\\Doohan\\Desktop\\NativeScript",
   "author": {
     "name": "NativeScript Team",
     "email": "nativescriptplugins@progress.com"
@@ -31,11 +36,9 @@
   "bugs": {
     "url": "https://github.com/telerik/nativescript-ui-feedback/issues"
   },
-  "bundleDependencies": false,
   "dependencies": {
     "nativescript-ui-core": "~2.0.0"
   },
-  "deprecated": false,
   "description": "Improve data entry speed and accuracy by triggering auto-completion for text entries.",
   "devDependencies": {
     "@angular/common": "~7.0.0",

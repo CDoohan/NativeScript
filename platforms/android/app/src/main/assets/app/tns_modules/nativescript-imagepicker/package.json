@@ -1,4 +1,10 @@
 {
+  "_args": [
+    [
+      "nativescript-imagepicker@6.0.5",
+      "C:\\Users\\Doohan\\Desktop\\NativeScript"
+    ]
+  ],
   "_from": "nativescript-imagepicker@6.0.5",
   "_id": "nativescript-imagepicker@6.0.5",
   "_inBundle": false,
@@ -19,9 +25,8 @@
     "/"
   ],
   "_resolved": "https://registry.npmjs.org/nativescript-imagepicker/-/nativescript-imagepicker-6.0.5.tgz",
-  "_shasum": "002daf0ae26a80cdb926510bec3ebff5796bfa2a",
-  "_spec": "nativescript-imagepicker@6.0.5",
-  "_where": "C:\\Users\\Caua Coelho\\Desktop\\Ultrafarma",
+  "_spec": "6.0.5",
+  "_where": "C:\\Users\\Doohan\\Desktop\\NativeScript",
   "author": {
     "name": "NativeScript Team"
   },
@@ -29,11 +34,9 @@
   "bugs": {
     "url": "https://github.com/NativeScript/nativescript-imagepicker/issues"
   },
-  "bundleDependencies": false,
   "dependencies": {
     "nativescript-permissions": "~1.2.3"
   },
-  "deprecated": false,
   "description": "A plugin for the NativeScript framework implementing multiple image picker",
   "devDependencies": {
     "tns-core-modules": "^5.0.0",

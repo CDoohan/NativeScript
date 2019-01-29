@@ -1,4 +1,10 @@
 {
+  "_args": [
+    [
+      "nativescript-ui-gauge@3.7.1",
+      "C:\\Users\\Doohan\\Desktop\\NativeScript"
+    ]
+  ],
   "_from": "nativescript-ui-gauge@3.7.1",
   "_id": "nativescript-ui-gauge@3.7.1",
   "_inBundle": false,
@@ -19,9 +25,8 @@
     "/"
   ],
   "_resolved": "https://registry.npmjs.org/nativescript-ui-gauge/-/nativescript-ui-gauge-3.7.1.tgz",
-  "_shasum": "d1ee04ab5291b87956703c2ffced8b526d2fef46",
-  "_spec": "nativescript-ui-gauge@3.7.1",
-  "_where": "C:\\Users\\Caua Coelho\\Desktop\\Ultrafarma",
+  "_spec": "3.7.1",
+  "_where": "C:\\Users\\Doohan\\Desktop\\NativeScript",
   "author": {
     "name": "NativeScript Team",
     "email": "nativescriptplugins@progress.com"
@@ -30,11 +35,9 @@
   "bugs": {
     "url": "https://github.com/telerik/nativescript-ui-feedback/issues"
   },
-  "bundleDependencies": false,
   "dependencies": {
     "nativescript-ui-core": "~2.0.0"
   },
-  "deprecated": false,
   "description": "Show a key data point in an intuitive gauge format, with contextual bands for categorization.",
   "devDependencies": {
     "@angular/common": "^5.0.0",
