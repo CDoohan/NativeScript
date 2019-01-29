@@ -11,8 +11,9 @@
 <ScrollView orientation="vertical" sdkExampleTitle sdkToggleNavButton>
     <StackLayout orientation="vertical" class="body">
         <StackLayout orientation="vertical" class="category-box">
-            <Label text="MEU" class="category-box-title one"></Label>
-            <Label text="DESCONTO" class="category-box-title second"></Label>
+            <StackLayout class="category-box-title">
+                <Image ios:horizontalAlignment="center" android:horizontalAlignment="center" row="0" col="1" class="category-image-title" stretch="fill" width="100" src="~/images/titles/meus-descontos.png"></Image>
+            </StackLayout>
             <Carousel #carousel showIndicator="false" ios:finite="true" ios:bounce="false" height="475px" width="100%">
                 <CarouselItem>
                     <GridLayout columns="auto,100" rows="auto,auto" width="100%" height="100">
@@ -39,8 +40,9 @@
             </Carousel>
         </StackLayout>
         <StackLayout orientation="vertical" class="category-box">
-            <Label text="MEUS" class="category-box-title one"></Label>
-            <Label text="PRÊMIOS" class="category-box-title second"></Label>
+            <StackLayout class="category-box-title">
+                <Image ios:horizontalAlignment="center" android:horizontalAlignment="center" row="0" col="1" class="category-image-title" stretch="fill" width="100" src="~/images/titles/meus-premios.png"></Image>
+            </StackLayout>
             <Carousel #carousel showIndicator="false" ios:finite="true" ios:bounce="false" height="475px" width="100%">
                 <CarouselItem>
                     <GridLayout columns="100,auto" rows="auto,auto" width="100%" height="auto">
@@ -68,5 +70,47 @@
                 </CarouselItem>
             </Carousel>
         </StackLayout>
+        <GridLayout columns="auto, auto" rows="auto, auto, auto, auto" width="100%" height="auto" class="grid-boxs">
+            <StackLayout row="0" col="0" class="box first" width="48%">
+                <Label width="100%" [text]="buyBox" class="fa icon-box"></Label>
+                <Label width="100%" text="Compre Online" class="title-box"></Label>
+                <Label width="100%" text="Sua loja no APP" class="span-box"></Label>
+            </StackLayout>
+            <StackLayout row="0" col="1" class="box" width="48%">
+                <Label width="100%" [text]="adegaBox" class="fa icon-box"></Label>
+                <Label width="100%" text="Adega" class="title-box"></Label>
+                <Label width="100%" text="Sua loja de Bebidas" class="span-box"></Label>
+            </StackLayout>
+            <StackLayout row="1" col="0" class="box first" width="48%">
+                <Label width="100%" [text]="caixaBox" class="fa icon-box"></Label>
+                <Label width="100%" text="Caixa Express" class="title-box"></Label>
+                <Label width="100%" text="Agende seu horário" class="span-box"></Label>
+            </StackLayout>
+            <StackLayout row="1" col="1" class="box" width="48%">
+                <Label width="100%" [text]="listBox" class="fa icon-box"></Label>
+                <Label width="100%" text="Minha Lista" class="title-box"></Label>
+                <Label width="100%" text="Organize suas compras" class="span-box"></Label>
+            </StackLayout>
+            <StackLayout row="2" col="0" class="box first" width="48%">
+                <Label width="100%" [text]="walletBox" class="fa icon-box"></Label>
+                <Label width="100%" text="Carteira Virtual" class="title-box"></Label>
+                <Label width="100%" text="Confira seus prêmios" class="span-box"></Label>
+            </StackLayout>
+            <StackLayout row="2" col="1" class="box" width="48%">
+                <Label width="100%" [text]="gearBox" class="fa icon-box"></Label>
+                <Label width="100%" text="Minhas Preferências" class="title-box"></Label>
+                <Label width="100%" text="Agilidade no caixa" class="span-box"></Label>
+            </StackLayout>
+            <StackLayout row="3" col="0" class="box first" width="48%">
+                <Label width="100%" [text]="cupomBox" class="fa icon-box"></Label>
+                <Label width="100%" text="Cupom Fiscal" class="title-box"></Label>
+                <Label width="100%" text="Consulte suas compras" class="span-box"></Label>
+            </StackLayout>
+            <StackLayout row="3" col="1" class="box" width="48%">
+                <Label width="100%" [text]="storeBox" class="fa icon-box"></Label>
+                <Label width="100%" text="Lojas" class="title-box"></Label>
+                <Label width="100%" text="Encontre nossas lojas" class="span-box"></Label>
+            </StackLayout>
+        </GridLayout>
     </StackLayout>
 </ScrollView>

@@ -18,6 +18,7 @@ import { UserService } from "../shared/user.service";
 
 export class HomeComponent implements OnInit, AfterViewInit {    
     @ViewChild('carousel') carouselRef: ElementRef;
+    processing = false;
     items: Item[];
 
     public navbarIcon = String.fromCharCode(0xf0c9);
@@ -37,7 +38,12 @@ export class HomeComponent implements OnInit, AfterViewInit {
         }
     }
 
+    showNotification(){
+        this.notifyIcon = String.fromCharCode(0xf27a);
+    }
+
     logout() {
+        this.processing = true;
         this.userService.logout();
         this.routerExtensions.navigate(["/login"], { clearHistory: true });
     }
