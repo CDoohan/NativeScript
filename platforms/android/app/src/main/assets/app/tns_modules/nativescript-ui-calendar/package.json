@@ -1,4 +1,10 @@
 {
+  "_args": [
+    [
+      "nativescript-ui-calendar@3.10.0",
+      "C:\\Users\\Doohan\\Desktop\\NativeScript"
+    ]
+  ],
   "_from": "nativescript-ui-calendar@3.10.0",
   "_id": "nativescript-ui-calendar@3.10.0",
   "_inBundle": false,
@@ -19,9 +25,8 @@
     "/"
   ],
   "_resolved": "https://registry.npmjs.org/nativescript-ui-calendar/-/nativescript-ui-calendar-3.10.0.tgz",
-  "_shasum": "37b4eeaf4d3c0a93f563e638062a609b60451bbd",
-  "_spec": "nativescript-ui-calendar@3.10.0",
-  "_where": "C:\\Users\\Caua Coelho\\Desktop\\Ultrafarma",
+  "_spec": "3.10.0",
+  "_where": "C:\\Users\\Doohan\\Desktop\\NativeScript",
   "author": {
     "name": "NativeScript Team",
     "email": "nativescriptplugins@progress.com"
@@ -30,11 +35,9 @@
   "bugs": {
     "url": "https://github.com/telerik/nativescript-ui-feedback/issues"
   },
-  "bundleDependencies": false,
   "dependencies": {
     "nativescript-ui-core": "~2.0.0"
   },
-  "deprecated": false,
   "description": "Month, year, week and day views. Single, multiple and range date Selection. Special and disabled dates.",
   "devDependencies": {
     "@angular/common": "~7.0.0",
