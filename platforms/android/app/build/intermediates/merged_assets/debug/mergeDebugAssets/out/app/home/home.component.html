@@ -1,16 +1,25 @@
 <!-- This is the home page. -->
 <!-- Look in the login folder for the login code. -->
-<ActionBar title="Ultrafarma">
-    <Image class="logo" src="~/images/logo.png"></Image>
-    <Button class="btn btn-primary" text="Sair" (tap)="logout()"></Button>
+<ActionBar class="page-title" title="Ultrafarma">
+    <StackLayout orientation="horizontal">
+        <Label width="25%" row="0" col="2" [text]="notifyIcon" class="fa fa-bell"></Label>
+        <Image ios:horizontalAlignment="center" android:horizontalAlignment="center" row="0" col="1" class="logo" src="~/images/logo.png"></Image>
+        <Label width="25%" row="0" col="3" [text]="navbarIcon" (tap)="logout()" class="fa fa-sign-out-alt"></Label>
+    </StackLayout>
 </ActionBar>
 
 <ScrollView orientation="vertical" sdkExampleTitle sdkToggleNavButton>
-    <StackLayout>
-        <FlexboxLayout row="1">
+    <StackLayout orientation="vertical" class="body">
+        <StackLayout orientation="vertical" class="category-box">
+            <Label text="MEU" class="category-box-title one"></Label>
+            <Label text="DESCONTO" class="category-box-title second"></Label>
             <Carousel #carousel showIndicator="false" ios:finite="true" ios:bounce="false" height="475px" width="100%">
                 <CarouselItem>
-                    <Image src="~/images/campanhas.jpg" stretch="none"></Image>
+                    <GridLayout columns="auto,100" rows="auto,auto" width="100%" height="100">
+                        <Image src="~/images/produto.png" stretch="fill" width="100px" height="100px" col="0" row="0"></Image>
+                        <Label text="Teste label 1" col="1" row="0"></Label>
+                        <Label text="Teste label 2" col="1" row="1"></Label>
+                    </GridLayout>
                 </CarouselItem>
                 <CarouselItem>
                     <Image src="~/images/meus_pedidos.jpg" stretch="none"></Image>
@@ -28,24 +37,34 @@
                     <Image src="~/images/promocoes.jpg" stretch="none"></Image>
                 </CarouselItem>
             </Carousel>
-        </FlexboxLayout>
-        <GridLayout class="m-15" rows="auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto">
-            <Label class="h3 m-5" height="50" row="0" text="Title 1"></Label>
-            <Label class="h3 m-5" height="50" row="1" text="Title 2"></Label>
-            <Label class="h3 m-5" height="50" row="2" text="Title 3"></Label>
-            <Label class="h3 m-5" height="50" row="3" text="Title 4"></Label>
-            <Label class="h3 m-5" height="50" row="4" text="Title 5"></Label>
-            <Label class="h3 m-5" height="50" row="5" text="Title 6"></Label>
-            <Label class="h3 m-5" height="50" row="6" text="Title 7"></Label>
-            <Label class="h3 m-5" height="50" row="7" text="Title 8"></Label>
-            <Label class="h3 m-5" height="50" row="8" text="Title 9"></Label>
-            <Label class="h3 m-5" height="50" row="9" text="Title 10"></Label>
-            <Label class="h3 m-5" height="50" row="10" text="Title 10"></Label>
-            <Label class="h3 m-5" height="50" row="11" text="Title 11"></Label>
-            <Label class="h3 m-5" height="50" row="12" text="Title 12"></Label>
-            <Label class="h3 m-5" height="50" row="13" text="Title 13"></Label>
-            <Label class="h3 m-5" height="50" row="14" text="Title 14"></Label>
-            <Label class="h3 m-5" height="50" row="15" text="Title 15"></Label>
-        </GridLayout>
+        </StackLayout>
+        <StackLayout orientation="vertical" class="category-box">
+            <Label text="MEUS" class="category-box-title one"></Label>
+            <Label text="PRÊMIOS" class="category-box-title second"></Label>
+            <Carousel #carousel showIndicator="false" ios:finite="true" ios:bounce="false" height="475px" width="100%">
+                <CarouselItem>
+                    <GridLayout columns="auto,100" rows="auto,auto" width="100%" height="100">
+                        <Image src="~/images/produto.png" stretch="fill" width="100px" height="100px" col="0" row="0"></Image>
+                        <Label text="Teste label 1" col="1" row="0"></Label>
+                        <Label text="Teste label 2" col="1" row="1"></Label>
+                    </GridLayout>
+                </CarouselItem>
+                <CarouselItem>
+                    <Image src="~/images/meus_pedidos.jpg" stretch="none"></Image>
+                </CarouselItem>
+                <CarouselItem>
+                    <Image src="~/images/meu_cadastro.jpg" stretch="none"></Image>
+                </CarouselItem>
+                <CarouselItem>
+                    <Image src="~/images/avaliacao.jpg" stretch="none"></Image>
+                </CarouselItem>
+                <CarouselItem>
+                    <Image src="~/images/money_back.jpg" stretch="none"></Image>
+                </CarouselItem>
+                <CarouselItem>
+                    <Image src="~/images/promocoes.jpg" stretch="none"></Image>
+                </CarouselItem>
+            </Carousel>
+        </StackLayout>
     </StackLayout>
 </ScrollView>

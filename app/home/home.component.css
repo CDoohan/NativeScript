@@ -4,7 +4,21 @@
 }
 
 .page-title .logo{
-    width:170px;
+    width:200px;
+}
+
+.fa-sign-out-alt{
+    vertical-align:middle;
+    text-align:right;
+    color:#0c3e23;
+    font-size:25px;
+}
+
+.fa-bell{
+    vertical-align:middle;
+    color:#0c3e23;
+    font-size:25px;
+    text-align:left;
 }
 
 .category-box{

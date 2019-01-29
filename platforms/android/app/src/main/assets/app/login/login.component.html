@@ -28,6 +28,13 @@
                     <StackLayout class="hr-light"></StackLayout>
                 </StackLayout>
 
+                <StackLayout row="3" *ngIf="!isLoggingIn" class="input-field">
+                    <TextField #email class="input" [isEnabled]="!processing"
+                        hint="e-mail" secure="true" [(ngModel)]="user.email"
+                        returnKeyType="done" keyboardType="email"></TextField>
+                    <StackLayout class="hr-light"></StackLayout>
+                </StackLayout>
+
                 <ActivityIndicator rowSpan="3" [busy]="processing"></ActivityIndicator>
             </GridLayout>
         </PreviousNextView>
