@@ -1,4 +1,10 @@
 {
+  "_args": [
+    [
+      "kinvey-nativescript-sdk@3.12.3",
+      "C:\\Users\\Doohan\\Desktop\\NativeScript"
+    ]
+  ],
   "_from": "kinvey-nativescript-sdk@3.12.3",
   "_id": "kinvey-nativescript-sdk@3.12.3",
   "_inBundle": false,
@@ -21,20 +27,17 @@
     "/"
   ],
   "_resolved": "https://registry.npmjs.org/kinvey-nativescript-sdk/-/kinvey-nativescript-sdk-3.12.3.tgz",
-  "_shasum": "4b8367cd6e89eb3e34f9df170a380bfa78ac01f0",
-  "_spec": "kinvey-nativescript-sdk@3.12.3",
-  "_where": "C:\\Users\\Caua Coelho\\Desktop\\Ultrafarma",
+  "_spec": "3.12.3",
+  "_where": "C:\\Users\\Doohan\\Desktop\\NativeScript",
   "author": {
     "name": "Kinvey, Inc."
   },
-  "bundleDependencies": false,
   "dependencies": {
     "nativescript-hook": "0.2.4",
     "nativescript-sqlite": "latest",
     "nativescript-urlhandler": "^1.2.2",
     "rxjs": "~6.2.2"
   },
-  "deprecated": false,
   "description": "Kinvey NativeScript SDK for developing NativeScript applications.",
   "files": [
     "file-upload-worker-android.js",

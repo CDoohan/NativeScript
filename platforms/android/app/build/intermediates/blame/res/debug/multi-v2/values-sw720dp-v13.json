@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\Caua Coelho\\Desktop\\Ultrafarma\\platforms\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sw720dp-v13\\values-sw720dp-v13.xml",
+            "outputFile": "C:\\Users\\Doohan\\Desktop\\NativeScript\\platforms\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sw720dp-v13\\values-sw720dp-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Caua Coelho\\.gradle\\caches\\transforms-1\\files-1.1\\TNSCalendar-release.aar\\6af0b99529775c2a12c67ca41229f3bb\\res\\values-sw720dp-v13\\values-sw720dp-v13.xml",
+                    "source": "C:\\Users\\Doohan\\.gradle\\caches\\transforms-1\\files-1.1\\TNSCalendar-release.aar\\5326cfc6c2c340586e19c6acfc127d90\\res\\values-sw720dp-v13\\values-sw720dp-v13.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

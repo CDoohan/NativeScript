@@ -1,4 +1,10 @@
 {
+  "_args": [
+    [
+      "@angular/core@7.1.2",
+      "C:\\Users\\Doohan\\Desktop\\NativeScript"
+    ]
+  ],
   "_from": "@angular/core@7.1.2",
   "_id": "@angular/core@7.1.2",
   "_inBundle": false,
@@ -20,20 +26,17 @@
     "/"
   ],
   "_resolved": "https://registry.npmjs.org/@angular/core/-/core-7.1.2.tgz",
-  "_shasum": "08f90d8e6ecb26c10cc21e2e2e4bdca5d0b7d7a5",
-  "_spec": "@angular/core@7.1.2",
-  "_where": "C:\\Users\\Caua Coelho\\Desktop\\Ultrafarma",
+  "_spec": "7.1.2",
+  "_where": "C:\\Users\\Doohan\\Desktop\\NativeScript",
   "author": {
     "name": "angular"
   },
   "bugs": {
     "url": "https://github.com/angular/angular/issues"
   },
-  "bundleDependencies": false,
   "dependencies": {
     "tslib": "^1.9.0"
   },
-  "deprecated": false,
   "description": "Angular - the core framework",
   "es2015": "./fesm2015/core.js",
   "esm2015": "./esm2015/core.js",

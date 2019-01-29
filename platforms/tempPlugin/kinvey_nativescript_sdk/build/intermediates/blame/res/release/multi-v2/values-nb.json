@@ -1,20 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\Caua Coelho\\Desktop\\Ultrafarma\\platforms\\tempPlugin\\kinvey_nativescript_sdk\\build\\intermediates\\res\\merged\\release\\values-nb\\values-nb.xml",
+            "outputFile": "C:\\Users\\Doohan\\Desktop\\NativeScript\\platforms\\tempPlugin\\kinvey_nativescript_sdk\\build\\intermediates\\res\\merged\\release\\values-nb\\values-nb.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Caua Coelho\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\c5edf429be48e9ca731e12b59e268ef5\\res\\values-nb\\values-nb.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "105,213,308,422,508,608,721,797,873,953,1056,1155,1251,1355,1453,1554,1707,1804",
-                        "endColumns": "107,94,113,85,99,112,75,75,79,102,98,95,103,97,100,152,96,78",
-                        "endOffsets": "208,303,417,503,603,716,792,868,948,1051,1150,1246,1350,1448,1549,1702,1799,1878"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\Caua Coelho\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.2.aar\\5e5dad4e534baf1f0508c1d07107c425\\res\\values-nb\\values-nb.xml",
+                    "source": "C:\\Users\\Doohan\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.2.aar\\94554f77b4e8f6b489c2ecff7d7b77bd\\res\\values-nb\\values-nb.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -28,25 +18,25 @@
                         "startOffsets": "1883",
                         "endColumns": "100",
                         "endOffsets": "1979"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Doohan\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\b2e44cdb9f9ea0cecdcc1af93c079385\\res\\values-nb\\values-nb.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,213,308,422,508,608,721,797,873,953,1056,1155,1251,1355,1453,1554,1707,1804",
+                        "endColumns": "107,94,113,85,99,112,75,75,79,102,98,95,103,97,100,152,96,78",
+                        "endOffsets": "208,303,417,503,603,716,792,868,948,1051,1150,1246,1350,1448,1549,1702,1799,1878"
                     }
                 }
             ]
         },
         {
-            "outputFile": "C:\\Users\\Caua Coelho\\Desktop\\Ultrafarma\\platforms\\tempPlugin\\kinvey_nativescript_sdk\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-nb\\values-nb.xml",
+            "outputFile": "C:\\Users\\Doohan\\Desktop\\NativeScript\\platforms\\tempPlugin\\kinvey_nativescript_sdk\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-nb\\values-nb.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Caua Coelho\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\c5edf429be48e9ca731e12b59e268ef5\\res\\values-nb\\values-nb.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "105,213,308,422,508,608,721,797,873,953,1056,1155,1251,1355,1453,1554,1707,1804",
-                        "endColumns": "107,94,113,85,99,112,75,75,79,102,98,95,103,97,100,152,96,78",
-                        "endOffsets": "208,303,417,503,603,716,792,868,948,1051,1150,1246,1350,1448,1549,1702,1799,1878"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\Caua Coelho\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.2.aar\\5e5dad4e534baf1f0508c1d07107c425\\res\\values-nb\\values-nb.xml",
+                    "source": "C:\\Users\\Doohan\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.2.aar\\94554f77b4e8f6b489c2ecff7d7b77bd\\res\\values-nb\\values-nb.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -60,6 +50,16 @@
                         "startOffsets": "1883",
                         "endColumns": "100",
                         "endOffsets": "1979"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Doohan\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\b2e44cdb9f9ea0cecdcc1af93c079385\\res\\values-nb\\values-nb.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,213,308,422,508,608,721,797,873,953,1056,1155,1251,1355,1453,1554,1707,1804",
+                        "endColumns": "107,94,113,85,99,112,75,75,79,102,98,95,103,97,100,152,96,78",
+                        "endOffsets": "208,303,417,503,603,716,792,868,948,1051,1150,1246,1350,1448,1549,1702,1799,1878"
                     }
                 }
             ]

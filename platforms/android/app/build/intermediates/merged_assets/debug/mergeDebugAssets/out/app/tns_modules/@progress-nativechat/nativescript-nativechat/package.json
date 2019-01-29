@@ -1,4 +1,10 @@
 {
+  "_args": [
+    [
+      "@progress-nativechat/nativescript-nativechat@2.0.3",
+      "C:\\Users\\Doohan\\Desktop\\NativeScript"
+    ]
+  ],
   "_from": "@progress-nativechat/nativescript-nativechat@2.0.3",
   "_id": "@progress-nativechat/nativescript-nativechat@2.0.3",
   "_inBundle": false,
@@ -20,18 +26,15 @@
     "/"
   ],
   "_resolved": "https://registry.npmjs.org/@progress-nativechat/nativescript-nativechat/-/nativescript-nativechat-2.0.3.tgz",
-  "_shasum": "e99018acb55c35bd2cf26ced1817190e11d9b81a",
-  "_spec": "@progress-nativechat/nativescript-nativechat@2.0.3",
-  "_where": "C:\\Users\\Caua Coelho\\Desktop\\Ultrafarma",
+  "_spec": "2.0.3",
+  "_where": "C:\\Users\\Doohan\\Desktop\\NativeScript",
   "author": {
     "name": "Progress NativeChat"
   },
   "bugs": {
     "url": "https://github.com/darvinai/nativescript-plugin/issues"
   },
-  "bundleDependencies": false,
   "dependencies": {},
-  "deprecated": false,
   "description": "NativeChat plugin for NativeScript",
   "devDependencies": {
     "@angular/common": "^6.0.5",

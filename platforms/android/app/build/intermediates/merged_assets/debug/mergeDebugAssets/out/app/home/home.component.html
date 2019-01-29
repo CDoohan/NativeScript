@@ -41,8 +41,17 @@
         <StackLayout orientation="vertical" class="category-box">
             <Label text="MEUS" class="category-box-title one"></Label>
             <Label text="PRÊMIOS" class="category-box-title second"></Label>
-            <Carousel #carousel showIndicator="false" ios:finite="true" ios:bounce="false" height="475px" width="100%">
+            <Carousel #carousel className="teste" showIndicator="false" ios:finite="true" ios:bounce="false" height="475px" width="100%">
                 <CarouselItem>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+                    <AbsoluteLayout>
+                        <Image src="~/images/produto.png" width="80%" top="5%" left="0" height="100%" ></Image>
+                        
+                    </AbsoluteLayout>
+=======
+>>>>>>> 0f7afd6690692441e43dce0cee0a0b94f7b02d7d
                     <GridLayout columns="100,auto" rows="auto,auto" width="100%" height="auto">
                         <Image src="~/images/produto.png" stretch="fill" width="100px" height="100px" col="0" row="0"></Image>
                         <GridLayout columns="auto,100" rows="auto,auto">
@@ -50,9 +59,10 @@
                             <Label text="Teste label 2" col="1" row="1"></Label>
                         </GridLayout>
                     </GridLayout>
+>>>>>>> a97ffb406cf7b54ee3a98e4f1e6531739c1c51e3
                 </CarouselItem>
                 <CarouselItem>
-                    <Image src="~/images/meus_pedidos.jpg" stretch="none"></Image>
+                    <Image src="~/images/meus_pedidos.jpg" stretch="fill"></Image>
                 </CarouselItem>
                 <CarouselItem>
                     <Image src="~/images/meu_cadastro.jpg" stretch="none"></Image>
@@ -67,6 +77,9 @@
                     <Image src="~/images/promocoes.jpg" stretch="none"></Image>
                 </CarouselItem>
             </Carousel>
+            <AbsoluteLayout>
+                <Button text="veja mais" className="see-more"></Button>
+            </AbsoluteLayout>
         </StackLayout>
     </StackLayout>
 </ScrollView>

@@ -1,4 +1,10 @@
 {
+  "_args": [
+    [
+      "nativescript-fresco@5.1.0",
+      "C:\\Users\\Doohan\\Desktop\\NativeScript"
+    ]
+  ],
   "_from": "nativescript-fresco@5.1.0",
   "_id": "nativescript-fresco@5.1.0",
   "_inBundle": false,
@@ -19,23 +25,20 @@
     "/"
   ],
   "_resolved": "https://registry.npmjs.org/nativescript-fresco/-/nativescript-fresco-5.1.0.tgz",
-  "_shasum": "e875660597a55226ed5f43ee15731dbfc9c7699e",
-  "_spec": "nativescript-fresco@5.1.0",
-  "_where": "C:\\Users\\Caua Coelho\\Desktop\\Ultrafarma",
+  "_spec": "5.1.0",
+  "_where": "C:\\Users\\Doohan\\Desktop\\NativeScript",
   "author": {
     "name": "NativeScript Team"
   },
   "bugs": {
     "url": "https://github.com/NativeScript/nativescript-fresco/issues"
   },
-  "bundleDependencies": false,
   "contributors": [
     {
       "name": "Vladimir Amiorkov",
       "email": "Vladimir.Amiorkov@progress.com"
     }
   ],
-  "deprecated": false,
   "description": "This is a NativeScript plugin wrapping the popular Fresco library for managing images on Android.",
   "devDependencies": {
     "@angular/common": "~6.1.0",

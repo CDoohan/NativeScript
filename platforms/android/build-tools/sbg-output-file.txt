@@ -1,1 +1,1 @@
-C:\Users\Caua Coelho\Desktop\Ultrafarma\platforms\android\app/src/main/java
+C:\Users\Doohan\Desktop\NativeScript\platforms\android\app/src/main/java
