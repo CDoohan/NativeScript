@@ -77,3 +77,19 @@
     color:#0c3e23;
     font-size:11px;
 }
+
+.about-more-list{
+    margin:0 0 20px;
+}
+
+.about-more-list .about-more-item{
+    margin:0 5px;
+}
+
+.about-more-list .about-more-item.first{
+    margin-left:0;
+}
+
+.about-more-list .about-more-item.last{
+    margin-right:0;
+}
