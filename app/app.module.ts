@@ -12,6 +12,8 @@ import { LoginComponent } from "./login/login.component";
 import { UserService } from "./shared/user.service";
 import { ItemService } from "./home/item/item.service";
 
+import { MaskedTextFieldModule } from "nativescript-masked-text-field/angular";
+
 @NgModule({
     bootstrap: [
         AppComponent
@@ -20,6 +22,7 @@ import { ItemService } from "./home/item/item.service";
         NativeScriptModule,
         NativeScriptFormsModule,
         NativeScriptHttpClientModule,
+        MaskedTextFieldModule,
         AppRoutingModule
     ],
     declarations: [

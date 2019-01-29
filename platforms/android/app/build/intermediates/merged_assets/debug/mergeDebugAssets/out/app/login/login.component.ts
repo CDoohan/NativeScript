@@ -13,7 +13,7 @@ import { UserService } from "../shared/user.service";
     styleUrls: ['./login.component.css']
 })
 export class LoginComponent {
-    isLoggingIn = false;
+    isLoggingIn = true;
     user: User;
     processing = false;
     @ViewChild("password") password: ElementRef;
@@ -23,6 +23,7 @@ export class LoginComponent {
         this.page.actionBarHidden = true;
         this.user = new User();
         this.user.cpf = "111.111.111-11";
+        this.user.email = "example@procfit.com.br";
         this.user.password = "1234";
     }
 
@@ -32,7 +33,7 @@ export class LoginComponent {
 
     submit() {
         if (!this.user.cpf || !this.user.password) {
-            this.alert("Por favor, forneça um endereço de e-mail e senha.");
+            this.alert("Por favor, forneça um cpf e senha.");
             return;
         }
 

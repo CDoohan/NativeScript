@@ -1,43 +1,50 @@
+<ScrollView orientation="vertical" sdkExampleTitle sdkToggleNavButton>
 <FlexboxLayout class="page">
     <StackLayout class="form">
-        <Image class="logo" src="~/images/logo.png"></Image>
+        <Image class="logo-login" src="~/images/logo.png" stretch="fill"></Image>
         <Label class="header" text="Ultrafarma"></Label>
 
-        <PreviousNextView>
-            <GridLayout rows="auto, auto, auto">
-                <StackLayout row="0" class="input-field">
-                    <TextField class="input" hint="cpf" [isEnabled]="!processing"
-                        keyboardType="phone" autocorrect="false"
-                        autocapitalizationType="none" [(ngModel)]="user.cpf"
-                        returnKeyType="next" (returnPress)="focusPassword()"></TextField>
-                    <StackLayout class="hr-light"></StackLayout>
-                </StackLayout>
+        <GridLayout rows="auto, auto, auto, auto, auto">
+            <StackLayout row="0" class="input-field">
+                <MaskedTextField class="input" hint="cpf" [isEnabled]="!processing"
+                keyboardType="phone" autocorrect="false"
+                autocapitalizationType="none"
+                returnKeyType="next" (returnPress)="focusPassword()" mask="999.999.999-99"></MaskedTextField>
+                <StackLayout class="hr-light"></StackLayout>
+            </StackLayout>
 
-                <StackLayout row="1" *ngIf="!isLoggingIn" class="input-field">
-                    <TextField #email class="input" [isEnabled]="!processing"
-                        hint="e-mail" secure="true" [(ngModel)]="user.email"
-                        returnKeyType="done" keyboardType="email"></TextField>
-                    <StackLayout class="hr-light"></StackLayout>
-                </StackLayout>
+            <StackLayout row="1" *ngIf="!isLoggingIn" class="input-field">
+                <TextField #email class="input" [isEnabled]="!processing"
+                    hint="e-mail"
+                    returnKeyType="next" keyboardType="email"></TextField>
+                <StackLayout class="hr-light"></StackLayout>
+            </StackLayout>
 
-                <StackLayout row="2" class="input-field">
-                    <TextField #password class="input" [isEnabled]="!processing"
-                        hint="senha" secure="true" [(ngModel)]="user.password"
-                        [returnKeyType]="isLoggingIn ? 'done' : 'next'"
-                        (returnPress)="focusConfirmPassword()"></TextField>
-                    <StackLayout class="hr-light"></StackLayout>
-                </StackLayout>
+            <StackLayout row="2" *ngIf="!isLoggingIn" class="input-field">
+                <MaskedTextField class="input" hint="celular" [isEnabled]="!processing"
+                keyboardType="phone" autocorrect="false"
+                autocapitalizationType="none"
+                returnKeyType="next" (returnPress)="focusPassword()" mask="(99) 9999#-9999"></MaskedTextField>
+                <StackLayout class="hr-light"></StackLayout>
+            </StackLayout>
 
-                <StackLayout row="3" *ngIf="!isLoggingIn" class="input-field">
-                    <TextField #confirmPassword class="input" [isEnabled]="!processing"
-                        hint="confirmar senha" secure="true" [(ngModel)]="user.confirmPassword"
-                        returnKeyType="done"></TextField>
-                    <StackLayout class="hr-light"></StackLayout>
-                </StackLayout>
+            <StackLayout row="3" class="input-field">
+                <TextField #password class="input" [isEnabled]="!processing"
+                    hint="senha" secure="true"
+                    [returnKeyType]="isLoggingIn ? 'done' : 'next'"
+                    (returnPress)="focusConfirmPassword()"></TextField>
+                <StackLayout class="hr-light"></StackLayout>
+            </StackLayout>
 
-                <ActivityIndicator rowSpan="3" [busy]="processing"></ActivityIndicator>
-            </GridLayout>
-        </PreviousNextView>
+            <StackLayout row="4" *ngIf="!isLoggingIn" class="input-field">
+                <TextField #confirmPassword class="input" [isEnabled]="!processing"
+                    hint="confirmar senha" secure="true" [(ngModel)]="user.confirmPassword"
+                    returnKeyType="done"></TextField>
+                <StackLayout class="hr-light"></StackLayout>
+            </StackLayout>
+
+            <ActivityIndicator rowSpan="3" [busy]="processing"></ActivityIndicator>
+        </GridLayout>
 
         <Button [text]="isLoggingIn ? 'Entrar' : 'Cadastrar'" [isEnabled]="!processing"
             (tap)="submit()" class="btn btn-primary m-t-20"></Button>
@@ -52,3 +59,4 @@
         </FormattedString>
     </Label>
 </FlexboxLayout>
+</ScrollView>

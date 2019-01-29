@@ -112,6 +112,10 @@ C:\Users\Caua Coelho\Desktop\Ultrafarma\platforms\android\app\src\main\assets\ap
 C:\Users\Caua Coelho\Desktop\Ultrafarma\platforms\android\app\src\main\assets\app\tns_modules\nativescript-intl\nativescript-intl-common.js
 C:\Users\Caua Coelho\Desktop\Ultrafarma\platforms\android\app\src\main\assets\app\tns_modules\nativescript-intl\nativescript-intl.js
 C:\Users\Caua Coelho\Desktop\Ultrafarma\platforms\android\app\src\main\assets\app\tns_modules\nativescript-iqkeyboardmanager\iqkeyboardmanager.js
+C:\Users\Caua Coelho\Desktop\Ultrafarma\platforms\android\app\src\main\assets\app\tns_modules\nativescript-masked-text-field\angular\index.js
+C:\Users\Caua Coelho\Desktop\Ultrafarma\platforms\android\app\src\main\assets\app\tns_modules\nativescript-masked-text-field\angular\masked-text-value-accessor.js
+C:\Users\Caua Coelho\Desktop\Ultrafarma\platforms\android\app\src\main\assets\app\tns_modules\nativescript-masked-text-field\masked-text-field-common.js
+C:\Users\Caua Coelho\Desktop\Ultrafarma\platforms\android\app\src\main\assets\app\tns_modules\nativescript-masked-text-field\masked-text-field.js
 C:\Users\Caua Coelho\Desktop\Ultrafarma\platforms\android\app\src\main\assets\app\tns_modules\nativescript-permissions\permissions.js
 C:\Users\Caua Coelho\Desktop\Ultrafarma\platforms\android\app\src\main\assets\app\tns_modules\nativescript-social-share\social-share.js
 C:\Users\Caua Coelho\Desktop\Ultrafarma\platforms\android\app\src\main\assets\app\tns_modules\nativescript-sqlite\sqlite.js

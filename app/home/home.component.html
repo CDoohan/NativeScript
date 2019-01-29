@@ -4,7 +4,7 @@
     <StackLayout orientation="horizontal">
         <Label width="25%" row="0" col="2" [text]="notifyIcon" class="fa fa-bell"></Label>
         <Image ios:horizontalAlignment="center" android:horizontalAlignment="center" row="0" col="1" class="logo" src="~/images/logo.png"></Image>
-        <Label width="25%" row="0" col="3" [text]="navbarIcon" (tap)="logout()" class="fa fa-sign-out-alt"></Label>
+        <Label width="25%" row="0" col="3" [text]="navbarIcon" (tap)="logout()" [isEnabled]="!processing" class="fa fa-sign-out-alt"></Label>
     </StackLayout>
 </ActionBar>
 
